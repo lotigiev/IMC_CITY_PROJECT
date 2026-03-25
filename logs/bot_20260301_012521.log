@@ -1,0 +1,7 @@
+2026-03-01 01:25:21,548 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 01:25:21,548 - __main__ - INFO - 🔄 Syncing from exchange...
+2026-03-01 01:25:21,705 - __main__ - INFO - Exchange positions: {'LHR_COUNT': 50, 'LON_FLY': 50, 'LHR_INDEX': 51, 'TIDE_SWING': -22, 'WX_SUM': 50, 'TIDE_SPOT': -44, 'WX_SPOT': -82, 'LON_ETF': 51}
+2026-03-01 01:25:21,705 - __main__ - INFO - ✅ Positions synced
+2026-03-01 01:25:21,753 - __main__ - INFO - Exchange P&L: {'user': 'Brestttt', 'totalProfit': -63626.0, 'details': [{'product': 'LHR_COUNT', 'profit': -12848.0}, {'product': 'LON_FLY', 'profit': 52410.0}, {'product': 'LHR_INDEX', 'profit': -20105.0}, {'product': 'TIDE_SWING', 'profit': 5083.0}, {'product': 'WX_SUM', 'profit': -1307.0}, {'product': 'TIDE_SPOT', 'profit': -46887.0}, {'product': 'WX_SPOT', 'profit': -3243.0}, {'product': 'LON_ETF', 'profit': -36729.0}]}
+2026-03-01 01:25:21,753 - __main__ - INFO - Realized P&L from exchange: 0
+2026-03-01 01:25:22,981 - __main__ - INFO - Loaded 24756 recent trades

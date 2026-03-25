@@ -1,0 +1,12 @@
+2026-03-01 00:44:54,208 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 00:44:54,208 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 00:44:54,208 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 00:44:54,209 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 00:44:54,209 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 00:44:54,209 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 00:44:54,210 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 00:44:54,210 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 00:44:54,210 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:44:54,211 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True, dry_run=False
+2026-03-01 00:44:56,800 - risk.pnl_monitor - INFO - Trade: BUY 4x LHR_COUNT @ 1307.00, realized P&L: +0.00, position: +4
+2026-03-01 00:47:21,073 - execution.order_manager - INFO - Shutting down order manager

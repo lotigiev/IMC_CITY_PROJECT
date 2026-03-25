@@ -1,0 +1,10 @@
+2026-03-01 01:20:57,091 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:20:57,092 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 01:20:57,092 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:20:57,092 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 01:20:57,093 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 01:20:57,093 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 01:20:57,093 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 01:20:57,093 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 01:21:51,532 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for TIDE_SPOT @ 2200.0
+2026-03-01 01:21:56,541 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for TIDE_SPOT @ 2264.0

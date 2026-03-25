@@ -1,0 +1,31 @@
+2026-03-01 00:47:24,853 - __main__ - INFO - ============================================================
+2026-03-01 00:47:24,853 - __main__ - INFO - IMCity Trading Bot
+2026-03-01 00:47:24,853 - __main__ - INFO - ============================================================
+2026-03-01 00:47:24,853 - __main__ - INFO - Bot:      hybrid
+2026-03-01 00:47:24,853 - __main__ - INFO - Exchange: test
+2026-03-01 00:47:24,853 - __main__ - INFO - URL:      http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/
+2026-03-01 00:47:24,853 - __main__ - INFO - User:     Brestttt
+2026-03-01 00:47:24,853 - __main__ - INFO - Width:    5.0
+2026-03-01 00:47:24,853 - __main__ - INFO - Volume:   5
+2026-03-01 00:47:24,853 - __main__ - INFO - ============================================================
+2026-03-01 00:47:24,853 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 00:47:24,853 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 00:47:24,853 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 00:47:24,853 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 00:47:24,853 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 00:47:24,853 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 00:47:24,853 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 00:47:24,853 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 00:47:24,853 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:47:24,853 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True, dry_run=False
+2026-03-01 00:47:24,854 - utils.alerting - INFO - ✅ Alerting enabled (webhook configured)
+2026-03-01 00:47:24,854 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-03-01 00:47:24,928 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-03-01 00:47:24,928 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-03-01 00:47:24,928 - bots.hybrid_bot - INFO - Strategies: ['SettlementFlattener', 'MarketMaker', 'ETFArbitrageV2']
+2026-03-01 00:47:25,074 - utils.alerting - ERROR - Failed to send alert: 405 Client Error: Method Not Allowed for url: https://discord.com/api/webhooks/YOUR_WEBHOOK
+2026-03-01 00:47:33,888 - risk.pnl_monitor - INFO - Trade: SELL 4x WX_SPOT @ 4414.00, realized P&L: +0.00, position: -4
+2026-03-01 00:50:13,498 - bots.hybrid_bot - INFO - Stopping...
+2026-03-01 00:50:13,788 - utils.alerting - ERROR - Failed to send alert: 405 Client Error: Method Not Allowed for url: https://discord.com/api/webhooks/YOUR_WEBHOOK
+2026-03-01 00:50:18,920 - execution.order_manager - INFO - Shutting down order manager
+2026-03-01 00:50:19,010 - bots.hybrid_bot - INFO - Bot shutdown complete

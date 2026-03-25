@@ -1,0 +1,18 @@
+2026-03-01 00:03:26,477 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 00:03:26,477 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 00:03:26,477 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 00:03:26,477 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 00:03:26,477 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 00:03:26,477 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 00:03:26,477 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 00:03:26,477 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 00:03:26,477 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:03:26,477 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True
+2026-03-01 00:03:30,685 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_FLY @ 3264.00, realized P&L: +0.00, position: +2
+2026-03-01 00:03:49,423 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 8607.00, realized P&L: +0.00, position: +1
+2026-03-01 00:03:49,424 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 8700.00, realized P&L: +0.00, position: +2
+2026-03-01 00:04:09,624 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 8639.00, realized P&L: +0.00, position: +3
+2026-03-01 00:04:09,625 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 8700.00, realized P&L: +0.00, position: +4
+2026-03-01 00:04:26,910 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 8639.00, realized P&L: +0.00, position: +5
+2026-03-01 00:04:26,911 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 8700.00, realized P&L: +0.00, position: +6
+2026-03-01 00:05:35,812 - execution.order_manager - INFO - Shutting down order manager

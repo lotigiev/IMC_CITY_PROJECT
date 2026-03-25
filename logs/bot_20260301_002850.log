@@ -1,0 +1,35 @@
+2026-03-01 00:28:50,739 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - Trade: SELL 10x TEST @ 100.00, realized P&L: +0.00, position: -10
+2026-03-01 00:28:50,740 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - Trade: BUY 20x TEST @ 110.00, realized P&L: -100.00, position: +10
+2026-03-01 00:28:50,740 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - Trade: BUY 10x TEST @ 100.00, realized P&L: +0.00, position: +10
+2026-03-01 00:28:50,740 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - Trade: SELL 20x TEST @ 90.00, realized P&L: -100.00, position: -10
+2026-03-01 00:28:50,740 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - Trade: BUY 10x TEST @ 100.00, realized P&L: +0.00, position: +10
+2026-03-01 00:28:50,740 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - Trade: BUY 10x TEST @ 110.00, realized P&L: +0.00, position: +20
+2026-03-01 00:28:50,740 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - Trade: SELL 5x TEST @ 100.00, realized P&L: +0.00, position: -5
+2026-03-01 00:28:50,740 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,740 - risk.pnl_monitor - INFO - Trade: SELL 5x TEST @ 90.00, realized P&L: +0.00, position: -10
+2026-03-01 00:28:50,741 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,741 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:28:50,741 - risk.pnl_monitor - INFO - Trade: BUY 20x TEST @ 100.00, realized P&L: +0.00, position: +20
+2026-03-01 00:28:50,741 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,741 - risk.pnl_monitor - INFO - Trade: SELL 10x TEST @ 110.00, realized P&L: +100.00, position: +10
+2026-03-01 00:28:50,741 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,741 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:28:50,741 - risk.pnl_monitor - INFO - Trade: SELL 20x TEST @ 100.00, realized P&L: +0.00, position: -20
+2026-03-01 00:28:50,741 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,741 - risk.pnl_monitor - INFO - Trade: BUY 10x TEST @ 90.00, realized P&L: +100.00, position: -10
+2026-03-01 00:28:50,741 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,741 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 00:28:50,741 - risk.pnl_monitor - INFO - Trade: BUY 10x TEST @ 100.00, realized P&L: +0.00, position: +10
+2026-03-01 00:28:50,741 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available
+2026-03-01 00:28:50,742 - risk.pnl_monitor - INFO - Trade: SELL 10x TEST @ 110.00, realized P&L: +100.00, position: +0
+2026-03-01 00:28:50,742 - risk.pnl_monitor - WARNING - Stop-loss checking realized P&L only - no current prices available

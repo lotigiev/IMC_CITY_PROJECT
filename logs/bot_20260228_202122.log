@@ -1,0 +1,212 @@
+2026-02-28 20:21:22,518 - __main__ - INFO - ============================================================
+2026-02-28 20:21:22,518 - __main__ - INFO - IMCity Trading Bot
+2026-02-28 20:21:22,519 - __main__ - INFO - ============================================================
+2026-02-28 20:21:22,519 - __main__ - INFO - Bot:      hybrid
+2026-02-28 20:21:22,519 - __main__ - INFO - Exchange: challenge
+2026-02-28 20:21:22,519 - __main__ - INFO - URL:      http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/
+2026-02-28 20:21:22,519 - __main__ - INFO - User:     Brestttt
+2026-02-28 20:21:22,519 - __main__ - INFO - Width:    5.0
+2026-02-28 20:21:22,519 - __main__ - INFO - Volume:   5
+2026-02-28 20:21:22,519 - __main__ - INFO - ============================================================
+2026-02-28 20:21:22,542 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True
+2026-02-28 20:21:22,543 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-02-28 20:21:22,667 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-02-28 20:21:22,667 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-02-28 20:21:22,667 - bots.hybrid_bot - INFO - Strategies: ['MarketMaker', 'ETFArbitrage']
+2026-02-28 20:21:22,718 - utils.metrics - INFO - ============================================================
+2026-02-28 20:21:22,718 - utils.metrics - INFO - PERFORMANCE SUMMARY
+2026-02-28 20:21:22,719 - utils.metrics - INFO - ============================================================
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Total P&L:      +0.00
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Realized P&L:   +0.00
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Unrealized P&L: +0.00
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Max Drawdown:   0.00
+2026-02-28 20:21:22,719 - utils.metrics - INFO - 
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Total Trades:   0
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Win Rate:       0.0%
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Avg Win:        +0.00
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Avg Loss:       +0.00
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Profit Factor:  0.00
+2026-02-28 20:21:22,719 - utils.metrics - INFO - Sharpe Ratio:   0.00
+2026-02-28 20:21:22,720 - utils.metrics - INFO - 
+2026-02-28 20:21:22,720 - utils.metrics - INFO - Orders Sent:    0
+2026-02-28 20:21:22,720 - utils.metrics - INFO - Orders Filled:  0
+2026-02-28 20:21:22,720 - utils.metrics - INFO - Fill Rate:      0.0%
+2026-02-28 20:21:22,720 - utils.metrics - INFO - 
+2026-02-28 20:21:22,720 - utils.metrics - INFO - Elapsed Time:   0.00 hours
+2026-02-28 20:21:22,720 - utils.metrics - INFO - P&L per Hour:   +0.00
+2026-02-28 20:21:22,720 - utils.metrics - INFO - ============================================================
+2026-02-28 20:21:25,777 - utils.metrics - INFO - Trade recorded: SELL 1x LON_FLY @ 5126.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:21:25,778 - utils.metrics - INFO - Trade recorded: SELL 1x LON_FLY @ 5126.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:21:39,341 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:21:39,345 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:21:39,367 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:39,372 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:39,372 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:21:39,372 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:39,372 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:39,384 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:21:39,385 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:40,524 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:21:40,530 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:21:40,531 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:40,531 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:40,536 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:21:40,537 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:40,537 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:40,542 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:21:40,542 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:40,581 - execution.smart_cancel - INFO - Cancelling order 2448b7c4: LON_FLY BUY 8@1043.0 - Fair value moved 2.6 ticks from order price
+2026-02-28 20:21:40,622 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 20:21:42,549 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:21:42,564 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:21:42,564 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:42,564 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:42,569 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:21:42,569 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:42,569 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:42,579 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:21:42,579 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:42,618 - execution.smart_cancel - INFO - Cancelling order bc7a4081: LHR_COUNT SELL 8@4734.0 - Fair value moved 2.0 ticks from order price
+2026-02-28 20:21:42,660 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 20:21:44,566 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:21:44,575 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:21:44,576 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:44,576 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:44,585 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:21:44,586 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:44,586 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:44,629 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:21:44,630 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:44,683 - execution.smart_cancel - INFO - Cancelling order 99c0ac53: TIDE_SPOT BUY 7@300.0 - Fair value moved 3.0 ticks from order price
+2026-02-28 20:21:44,731 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 20:21:46,552 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:21:46,556 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:21:46,557 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:46,557 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:46,561 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:21:46,561 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:46,561 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:46,571 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:21:46,571 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:46,615 - execution.smart_cancel - INFO - Cancelling order e1759469: LHR_INDEX SELL 8@1389.0 - Fair value moved 2.2 ticks from order price
+2026-02-28 20:21:46,654 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 20:21:48,546 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:21:48,552 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:21:48,552 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:48,552 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:48,555 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:21:48,555 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:48,555 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:48,564 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:21:48,565 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:48,602 - execution.smart_cancel - INFO - Cancelling order 60bcfdc4: LON_ETF BUY 8@7520.0 - Fair value moved 2.8 ticks from order price
+2026-02-28 20:21:48,641 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 20:21:50,540 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:21:50,546 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:21:50,546 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:50,547 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:50,554 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:21:50,555 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:50,555 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:50,572 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:21:50,573 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:50,617 - execution.smart_cancel - INFO - Cancelling order 3a93f07b: TIDE_SWING SELL 4@526.0 - Fair value moved 7.1 ticks from order price
+2026-02-28 20:21:50,659 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 20:21:52,570 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:21:52,577 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:21:52,578 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:52,578 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:52,582 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:21:52,582 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:52,582 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:52,592 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:21:52,592 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:52,632 - execution.smart_cancel - INFO - Cancelling order bcd9724b: WX_SUM SELL 7@3829.0 - Fair value moved 3.0 ticks from order price
+2026-02-28 20:21:52,669 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 20:21:58,582 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:21:58,594 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:21:58,595 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:58,595 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:58,605 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:21:58,606 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:58,606 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:21:58,613 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:21:58,613 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:58,653 - execution.smart_cancel - INFO - Cancelling order b82be2ea: LHR_COUNT SELL 4@2425.0 - Fair value moved 2307.0 ticks from order price
+2026-02-28 20:21:58,654 - execution.smart_cancel - INFO - Cancelling order 3ab63225: TIDE_SPOT SELL 5@2933.0 - Fair value moved 2630.0 ticks from order price
+2026-02-28 20:21:58,654 - execution.smart_cancel - INFO - Cancelling order fea523f3: LON_ETF BUY 2@9622.0 - Fair value moved 2099.2 ticks from order price
+2026-02-28 20:21:58,654 - execution.smart_cancel - INFO - Cancelling order 3848506b: WX_SPOT BUY 7@2485.0 - Fair value moved 2.8 ticks from order price
+2026-02-28 20:21:58,823 - execution.smart_cancel - INFO - Cancelled 4 stale orders
+2026-02-28 20:22:02,605 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:22:02,610 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:22:02,610 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:02,610 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:02,612 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:22:02,612 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:02,612 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:02,621 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:22:02,621 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:22:02,635 - utils.metrics - INFO - Trade recorded: SELL 1x LON_FLY @ 5126.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:06,780 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:22:06,786 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:22:06,787 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:06,787 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:06,789 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:22:06,789 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:06,789 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:06,794 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:22:06,795 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:22:06,799 - utils.metrics - INFO - Trade recorded: BUY 1x LHR_COUNT @ 2434.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:06,807 - utils.metrics - INFO - Trade recorded: SELL 1x TIDE_SPOT @ 2933.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:06,808 - utils.metrics - INFO - Trade recorded: SELL 1x TIDE_SPOT @ 2650.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:06,816 - utils.metrics - INFO - Trade recorded: BUY 1x LHR_INDEX @ 164.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:06,816 - utils.metrics - INFO - Trade recorded: BUY 1x LHR_INDEX @ 218.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:11,327 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:22:11,331 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:22:11,331 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:11,331 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:11,334 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:22:11,334 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:11,334 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:11,343 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:22:11,343 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:22:11,344 - utils.metrics - INFO - Trade recorded: SELL 1x LON_ETF @ 9491.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:11,345 - utils.metrics - INFO - Trade recorded: BUY 5x TIDE_SWING @ 480.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:11,346 - utils.metrics - INFO - Trade recorded: BUY 2x WX_SUM @ 3341.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:11,349 - utils.metrics - INFO - Trade recorded: SELL 2x WX_SPOT @ 4492.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:21,902 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:22:21,908 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:22:21,908 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:21,909 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:21,911 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:22:21,912 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:21,912 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:21,925 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:22:21,925 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:22:21,970 - execution.smart_cancel - INFO - Cancelling order b0cec8a7: LHR_COUNT SELL 3@2425.0 - Fair value moved 2307.0 ticks from order price
+2026-02-28 20:22:21,970 - execution.smart_cancel - INFO - Cancelling order db154499: TIDE_SPOT SELL 5@2933.0 - Fair value moved 2630.0 ticks from order price
+2026-02-28 20:22:21,970 - execution.smart_cancel - INFO - Cancelling order 030756c0: LON_ETF BUY 1.0@9622.0 - Fair value moved 2099.2 ticks from order price
+2026-02-28 20:22:22,094 - execution.smart_cancel - INFO - Cancelled 3 stale orders
+2026-02-28 20:22:23,154 - utils.metrics - INFO - Trade recorded: BUY 3x LON_ETF @ 9622.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 20:22:23,181 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:22:23,184 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:22:23,184 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:23,184 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:23,186 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:22:23,186 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:23,186 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:23,194 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:22:23,195 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:22:23,235 - execution.smart_cancel - INFO - Cancelling order 7a1c77a1: WX_SPOT BUY 7@2485.0 - Fair value moved 2.8 ticks from order price
+2026-02-28 20:22:23,281 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 20:22:51,076 - bots.hybrid_bot - INFO - Stopping...
+2026-02-28 20:22:51,091 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:22:51,097 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:22:51,099 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:51,099 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:51,125 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:22:51,127 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:51,127 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:22:51,151 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:22:51,151 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:23:11,319 - execution.order_manager - INFO - Shutting down order manager

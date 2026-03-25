@@ -1,0 +1,19 @@
+2026-02-28 21:12:32,269 - StaircaseFlatten - INFO - 🚀 Starting STAIRCASE flattening...
+2026-02-28 21:12:33,439 - StaircaseFlatten - INFO - Positions remaining: {'LHR_INDEX': 43, 'WX_SUM': 13}
+2026-02-28 21:12:33,481 - StaircaseFlatten - INFO - [LHR_INDEX] Attempt 1: SELL 25x @ 325.00 (Mid: 325.00)
+2026-02-28 21:12:34,702 - StaircaseFlatten - INFO - [WX_SUM] Attempt 1: SELL 13x @ 3308.00 (Mid: 3307.50)
+2026-02-28 21:12:35,865 - StaircaseFlatten - INFO - Batch sent. Waiting 20s for fills...
+2026-02-28 21:12:57,024 - StaircaseFlatten - INFO - Positions remaining: {'LHR_INDEX': 43, 'WX_SUM': 13}
+2026-02-28 21:12:57,070 - StaircaseFlatten - INFO - [LHR_INDEX] Attempt 2: SELL 25x @ 174.00 (Mid: 174.50)
+2026-02-28 21:12:58,286 - StaircaseFlatten - INFO - [WX_SUM] Attempt 2: SELL 13x @ 3291.00 (Mid: 3291.00)
+2026-02-28 21:12:59,437 - StaircaseFlatten - INFO - Batch sent. Waiting 20s for fills...
+2026-02-28 21:13:20,553 - StaircaseFlatten - INFO - Positions remaining: {'LHR_INDEX': 18}
+2026-02-28 21:13:20,596 - StaircaseFlatten - INFO - [LHR_INDEX] Attempt 3: SELL 18x @ 161.00 (Mid: 161.00)
+2026-02-28 21:13:21,746 - StaircaseFlatten - INFO - Batch sent. Waiting 20s for fills...
+2026-02-28 21:13:42,894 - StaircaseFlatten - INFO - Positions remaining: {'LHR_INDEX': 3}
+2026-02-28 21:13:42,940 - StaircaseFlatten - INFO - [LHR_INDEX] Attempt 4: SELL 3x @ 156.00 (Mid: 157.50)
+2026-02-28 21:13:44,089 - StaircaseFlatten - INFO - Batch sent. Waiting 20s for fills...
+2026-02-28 21:14:05,281 - StaircaseFlatten - INFO - Positions remaining: {'LHR_INDEX': 3}
+2026-02-28 21:14:05,326 - StaircaseFlatten - INFO - [LHR_INDEX] Attempt 5: SELL 3x @ 144.00 (Mid: 146.50)
+2026-02-28 21:14:06,481 - StaircaseFlatten - INFO - Batch sent. Waiting 20s for fills...
+2026-02-28 21:14:12,982 - StaircaseFlatten - INFO - Stopped by user.

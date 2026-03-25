@@ -1,0 +1,51 @@
+2026-02-28 20:17:13,139 - __main__ - INFO - ============================================================
+2026-02-28 20:17:13,139 - __main__ - INFO - IMCity Trading Bot
+2026-02-28 20:17:13,139 - __main__ - INFO - ============================================================
+2026-02-28 20:17:13,139 - __main__ - INFO - Bot:      hybrid
+2026-02-28 20:17:13,140 - __main__ - INFO - Exchange: challenge
+2026-02-28 20:17:13,140 - __main__ - INFO - URL:      http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/
+2026-02-28 20:17:13,140 - __main__ - INFO - User:     Brestttt
+2026-02-28 20:17:13,140 - __main__ - INFO - Width:    5.0
+2026-02-28 20:17:13,140 - __main__ - INFO - Volume:   5
+2026-02-28 20:17:13,140 - __main__ - INFO - ============================================================
+2026-02-28 20:17:13,140 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-02-28 20:17:13,206 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-02-28 20:17:13,206 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-02-28 20:17:13,206 - bots.hybrid_bot - INFO - Strategies: ['MarketMaker', 'ETFArbitrage']
+2026-02-28 20:17:43,262 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:17:43,263 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:18:13,275 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:18:13,276 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:18:43,342 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:18:43,343 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:19:13,350 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:19:13,355 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:19:43,417 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:19:43,419 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:20:01,136 - data.tides - ERROR - Failed to fetch tidal data: HTTPSConnectionPool(host='environment.data.gov.uk', port=443): Read timed out. (read timeout=10)
+2026-02-28 20:20:01,142 - data.tides - ERROR - Failed to estimate TIDE_SWING: HTTPSConnectionPool(host='environment.data.gov.uk', port=443): Read timed out. (read timeout=10)
+2026-02-28 20:20:06,886 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:20:06,886 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #1 !!! (Monthly limit: 150)
+2026-02-28 20:20:07,132 - data.flights - INFO - Fetched 1729 arrivals, 1977 departures (offset=-720, duration=720)
+2026-02-28 20:20:07,235 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #2 !!! (Monthly limit: 150)
+2026-02-28 20:20:07,323 - data.flights - ERROR - Failed to fetch flight data: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 20:20:07,323 - data.flights - ERROR - Failed to estimate LHR_COUNT: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 20:20:07,325 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:20:07,326 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #3 !!! (Monthly limit: 150)
+2026-02-28 20:20:07,443 - data.flights - ERROR - Failed to fetch flight data: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 20:20:07,443 - data.flights - ERROR - Failed to estimate LHR_INDEX: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 20:20:07,445 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:20:07,446 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #4 !!! (Monthly limit: 150)
+2026-02-28 20:20:07,789 - data.flights - INFO - Fetched 594 arrivals, 432 departures (offset=0, duration=720)
+2026-02-28 20:20:07,823 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:20:07,824 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:20:16,007 - data.tides - INFO - TIDE_SWING calculated: 518.90 (from 96 intervals, mean change: 18.05 cm)
+2026-02-28 20:20:16,010 - data.weather - INFO - WX_SUM estimate: 3826.01
+2026-02-28 20:20:16,011 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:20:16,011 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:20:16,016 - data.flights - INFO - LHR_COUNT: 4732 (2323 arrivals + 2409 departures)
+2026-02-28 20:20:16,017 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:20:16,017 - data.flights - INFO - Flight data loaded from cache (avoided API call)
+2026-02-28 20:20:16,025 - data.flights - INFO - LHR_INDEX: 1386.85 (across 43 intervals, total arr=2323, dep=2409)
+2026-02-28 20:20:16,027 - pricing.fair_value - INFO - LON_ETF fair value: 7522.82 (TIDE: 303.00, WX: 2487.82, LHR: 4732.00)
+2026-02-28 20:21:18,804 - bots.hybrid_bot - INFO - Stopping...

@@ -1,0 +1,297 @@
+2026-02-28 20:53:39,052 - GentleFlatten - INFO - Starting GENTLE flattening (Limit Orders at Mid)...
+2026-02-28 20:53:39,052 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:53:40,216 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 63, 'LON_FLY': -64, 'LHR_INDEX': 64, 'TIDE_SWING': -5, 'WX_SUM': 63, 'TIDE_SPOT': -64, 'WX_SPOT': -70, 'LON_ETF': -62}
+2026-02-28 20:53:40,257 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 2322.0
+2026-02-28 20:53:41,452 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4612.0
+2026-02-28 20:53:42,671 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 134.0
+2026-02-28 20:53:43,881 - GentleFlatten - INFO - Attempting: BUY 5x TIDE_SWING @ 494.0
+2026-02-28 20:53:45,106 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3329.0
+2026-02-28 20:53:46,321 - GentleFlatten - INFO - Attempting: BUY 20x TIDE_SPOT @ 3350.0
+2026-02-28 20:53:47,553 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:53:48,775 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9215.0
+2026-02-28 20:53:49,937 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:54:04,939 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:54:06,293 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 62, 'LON_FLY': -64, 'LHR_INDEX': 64, 'TIDE_SWING': -5, 'WX_SUM': 63, 'TIDE_SPOT': -64, 'WX_SPOT': -70, 'LON_ETF': -62}
+2026-02-28 20:54:06,334 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 2397.0
+2026-02-28 20:54:07,529 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4612.0
+2026-02-28 20:54:08,751 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 134.0
+2026-02-28 20:54:09,939 - GentleFlatten - INFO - Attempting: BUY 5x TIDE_SWING @ 494.0
+2026-02-28 20:54:11,139 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3329.0
+2026-02-28 20:54:12,356 - GentleFlatten - INFO - Attempting: BUY 20x TIDE_SPOT @ 3304.0
+2026-02-28 20:54:13,558 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:54:14,761 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9247.0
+2026-02-28 20:54:15,919 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:54:30,934 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:54:32,241 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 58, 'LON_FLY': -64, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -59, 'WX_SPOT': -70, 'LON_ETF': -42}
+2026-02-28 20:54:32,290 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 2244.0
+2026-02-28 20:54:33,506 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4650.0
+2026-02-28 20:54:34,722 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 127.0
+2026-02-28 20:54:35,972 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:54:37,184 - GentleFlatten - INFO - Attempting: BUY 20x TIDE_SPOT @ 3357.0
+2026-02-28 20:54:38,404 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:54:39,624 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9292.0
+2026-02-28 20:54:40,768 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:54:55,779 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:54:56,969 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 58, 'LON_FLY': -54, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -54, 'WX_SPOT': -70, 'LON_ETF': -42}
+2026-02-28 20:54:57,012 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 2228.0
+2026-02-28 20:54:58,217 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4672.0
+2026-02-28 20:54:59,431 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 132.0
+2026-02-28 20:55:00,622 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:55:01,833 - GentleFlatten - INFO - Attempting: BUY 20x TIDE_SPOT @ 3564.0
+2026-02-28 20:55:03,043 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:55:04,235 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9366.0
+2026-02-28 20:55:05,384 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:55:20,391 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:55:21,564 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 48, 'LON_FLY': -49, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -34, 'WX_SPOT': -70, 'LON_ETF': -42}
+2026-02-28 20:55:21,610 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1956.0
+2026-02-28 20:55:22,825 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4674.0
+2026-02-28 20:55:24,015 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 126.0
+2026-02-28 20:55:25,220 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:55:26,424 - GentleFlatten - INFO - Attempting: BUY 20x TIDE_SPOT @ 3560.0
+2026-02-28 20:55:27,628 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:55:28,828 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9390.0
+2026-02-28 20:55:29,981 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:55:44,997 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:55:46,175 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 28, 'LON_FLY': -44, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -34, 'WX_SPOT': -70, 'LON_ETF': -42}
+2026-02-28 20:55:46,225 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 2012.0
+2026-02-28 20:55:47,418 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4680.0
+2026-02-28 20:55:48,627 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 132.0
+2026-02-28 20:55:49,829 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:55:51,029 - GentleFlatten - INFO - Attempting: BUY 20x TIDE_SPOT @ 3568.0
+2026-02-28 20:55:52,241 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:55:53,454 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9401.0
+2026-02-28 20:55:54,608 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:56:09,611 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:56:10,809 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 28, 'LON_FLY': -44, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -29, 'WX_SPOT': -70, 'LON_ETF': -42}
+2026-02-28 20:56:10,857 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 2012.0
+2026-02-28 20:56:12,096 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4680.0
+2026-02-28 20:56:13,302 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 132.0
+2026-02-28 20:56:14,507 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:56:15,710 - GentleFlatten - INFO - Attempting: BUY 20x TIDE_SPOT @ 3568.0
+2026-02-28 20:56:16,916 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4494.0
+2026-02-28 20:56:18,133 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9319.0
+2026-02-28 20:56:19,287 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:56:34,293 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:56:35,495 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 28, 'LON_FLY': -44, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -23, 'WX_SPOT': -50, 'LON_ETF': -42}
+2026-02-28 20:56:35,541 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 2012.0
+2026-02-28 20:56:36,815 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4680.0
+2026-02-28 20:56:38,102 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 132.0
+2026-02-28 20:56:39,415 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:56:40,727 - GentleFlatten - INFO - Attempting: BUY 20x TIDE_SPOT @ 3568.0
+2026-02-28 20:56:41,924 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:56:43,130 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9318.0
+2026-02-28 20:56:44,283 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:56:59,289 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:57:00,485 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 23, 'LON_FLY': -44, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -19, 'WX_SPOT': -50, 'LON_ETF': -42}
+2026-02-28 20:57:00,527 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 2012.0
+2026-02-28 20:57:01,750 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4680.0
+2026-02-28 20:57:02,964 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 132.0
+2026-02-28 20:57:04,171 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:57:05,420 - GentleFlatten - INFO - Attempting: BUY 19x TIDE_SPOT @ 3568.0
+2026-02-28 20:57:06,641 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:57:07,853 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9319.0
+2026-02-28 20:57:09,010 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:57:24,020 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:57:25,208 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LON_FLY': -44, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -13, 'WX_SPOT': -50, 'LON_ETF': -42}
+2026-02-28 20:57:25,259 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 2012.0
+2026-02-28 20:57:26,472 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4680.0
+2026-02-28 20:57:27,668 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 132.0
+2026-02-28 20:57:28,856 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:57:30,054 - GentleFlatten - INFO - Attempting: BUY 13x TIDE_SPOT @ 3568.0
+2026-02-28 20:57:31,284 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:57:32,493 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9303.0
+2026-02-28 20:57:33,654 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:57:48,660 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:57:49,828 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LON_FLY': -39, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -11, 'WX_SPOT': -50, 'LON_ETF': -42}
+2026-02-28 20:57:49,868 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1898.0
+2026-02-28 20:57:51,063 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 4670.0
+2026-02-28 20:57:52,244 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 125.0
+2026-02-28 20:57:53,454 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:57:54,660 - GentleFlatten - INFO - Attempting: BUY 11x TIDE_SPOT @ 3207.0
+2026-02-28 20:57:55,867 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:57:57,075 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9260.0
+2026-02-28 20:57:58,228 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:58:13,232 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:58:14,400 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LON_FLY': -30, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -11, 'WX_SPOT': -50, 'LON_ETF': -42}
+2026-02-28 20:58:14,451 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1880.0
+2026-02-28 20:58:15,693 - GentleFlatten - INFO - Attempting: BUY 20x LON_FLY @ 5197.0
+2026-02-28 20:58:16,892 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 124.0
+2026-02-28 20:58:18,143 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:58:19,336 - GentleFlatten - INFO - Attempting: BUY 11x TIDE_SPOT @ 3328.0
+2026-02-28 20:58:20,555 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:58:21,755 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9303.0
+2026-02-28 20:58:22,905 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:58:37,910 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:58:39,135 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LON_FLY': -10, 'LHR_INDEX': 64, 'WX_SUM': 63, 'TIDE_SPOT': -6, 'WX_SPOT': -50, 'LON_ETF': -42}
+2026-02-28 20:58:39,177 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1878.0
+2026-02-28 20:58:40,395 - GentleFlatten - INFO - Attempting: BUY 10x LON_FLY @ 4758.0
+2026-02-28 20:58:41,598 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 124.0
+2026-02-28 20:58:42,791 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:58:43,993 - GentleFlatten - INFO - Attempting: BUY 6x TIDE_SPOT @ 3442.0
+2026-02-28 20:58:45,197 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:58:46,407 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9274.0
+2026-02-28 20:58:47,559 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:59:02,566 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:59:03,739 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LHR_INDEX': 64, 'WX_SUM': 63, 'WX_SPOT': -50, 'LON_ETF': -42}
+2026-02-28 20:59:03,806 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1874.0
+2026-02-28 20:59:05,035 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 124.0
+2026-02-28 20:59:06,263 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:59:07,454 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4494.0
+2026-02-28 20:59:08,655 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9319.0
+2026-02-28 20:59:09,798 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:59:24,835 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:59:26,066 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LHR_INDEX': 64, 'WX_SUM': 63, 'WX_SPOT': -30, 'LON_ETF': -42}
+2026-02-28 20:59:26,107 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1870.0
+2026-02-28 20:59:27,305 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 124.0
+2026-02-28 20:59:28,500 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:59:29,713 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:59:30,918 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9362.0
+2026-02-28 20:59:32,063 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 20:59:47,071 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 20:59:48,249 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LHR_INDEX': 64, 'WX_SUM': 63, 'WX_SPOT': -30, 'LON_ETF': -42}
+2026-02-28 20:59:48,298 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1869.0
+2026-02-28 20:59:49,531 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 124.0
+2026-02-28 20:59:50,800 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 20:59:52,014 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 20:59:53,223 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9303.0
+2026-02-28 20:59:54,376 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:00:09,378 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:00:10,563 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LHR_INDEX': 64, 'WX_SUM': 43, 'WX_SPOT': -30, 'LON_ETF': -42}
+2026-02-28 21:00:10,609 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1872.0
+2026-02-28 21:00:11,816 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 130.0
+2026-02-28 21:00:13,040 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3336.0
+2026-02-28 21:00:14,247 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 21:00:15,448 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9287.0
+2026-02-28 21:00:16,595 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:00:31,601 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:00:32,791 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LHR_INDEX': 64, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -42}
+2026-02-28 21:00:32,847 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1857.0
+2026-02-28 21:00:34,060 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 125.0
+2026-02-28 21:00:35,259 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3334.0
+2026-02-28 21:00:36,467 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 21:00:37,727 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9272.0
+2026-02-28 21:00:38,915 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:00:53,920 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:00:55,095 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LHR_INDEX': 64, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -42}
+2026-02-28 21:00:55,146 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1855.0
+2026-02-28 21:00:56,350 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 132.0
+2026-02-28 21:00:57,550 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3330.0
+2026-02-28 21:00:58,762 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 21:00:59,988 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9268.0
+2026-02-28 21:01:01,142 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:01:16,147 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:01:17,301 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -27}
+2026-02-28 21:01:17,352 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:01:18,556 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 132.0
+2026-02-28 21:01:19,792 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3330.0
+2026-02-28 21:01:21,047 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4493.0
+2026-02-28 21:01:22,250 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9246.0
+2026-02-28 21:01:23,475 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:01:38,482 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:01:39,654 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -27}
+2026-02-28 21:01:39,715 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:01:40,930 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 127.0
+2026-02-28 21:01:42,122 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3329.0
+2026-02-28 21:01:43,386 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4493.0
+2026-02-28 21:01:44,587 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9318.0
+2026-02-28 21:01:45,743 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:02:00,754 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:02:01,943 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 22, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -21}
+2026-02-28 21:02:01,986 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:02:03,199 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 124.0
+2026-02-28 21:02:04,396 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 21:02:05,609 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4493.0
+2026-02-28 21:02:06,806 - GentleFlatten - INFO - Attempting: BUY 20x LON_ETF @ 9352.0
+2026-02-28 21:02:07,955 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:02:22,963 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:02:24,125 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -16}
+2026-02-28 21:02:24,170 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:02:25,394 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 130.0
+2026-02-28 21:02:26,596 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3329.0
+2026-02-28 21:02:27,805 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4493.0
+2026-02-28 21:02:29,052 - GentleFlatten - INFO - Attempting: BUY 16x LON_ETF @ 9319.0
+2026-02-28 21:02:30,195 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:02:45,201 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:02:46,357 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -6}
+2026-02-28 21:02:46,402 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:02:47,606 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 132.0
+2026-02-28 21:02:48,811 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3330.0
+2026-02-28 21:02:50,014 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4493.0
+2026-02-28 21:02:51,213 - GentleFlatten - INFO - Attempting: BUY 6x LON_ETF @ 9290.0
+2026-02-28 21:02:52,374 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:03:07,378 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:03:08,552 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -6}
+2026-02-28 21:03:08,597 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:03:09,815 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 127.0
+2026-02-28 21:03:11,017 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3330.0
+2026-02-28 21:03:12,211 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4493.0
+2026-02-28 21:03:13,451 - GentleFlatten - INFO - Attempting: BUY 6x LON_ETF @ 9286.0
+2026-02-28 21:03:14,620 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:03:29,624 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:03:30,801 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -6}
+2026-02-28 21:03:30,850 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:03:32,054 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 127.0
+2026-02-28 21:03:33,247 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3330.0
+2026-02-28 21:03:34,489 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4493.0
+2026-02-28 21:03:35,714 - GentleFlatten - INFO - Attempting: BUY 6x LON_ETF @ 9290.0
+2026-02-28 21:03:36,866 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:03:51,872 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:03:53,061 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -6}
+2026-02-28 21:03:53,107 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:03:54,300 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 127.0
+2026-02-28 21:03:55,521 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3329.0
+2026-02-28 21:03:57,775 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4493.0
+2026-02-28 21:03:58,975 - GentleFlatten - INFO - Attempting: BUY 6x LON_ETF @ 9264.0
+2026-02-28 21:04:00,123 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:04:15,129 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:04:16,317 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -1}
+2026-02-28 21:04:16,358 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:04:17,549 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 126.0
+2026-02-28 21:04:18,751 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 21:04:19,958 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 21:04:21,165 - GentleFlatten - INFO - Attempting: BUY 1x LON_ETF @ 9319.0
+2026-02-28 21:04:22,317 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:04:37,324 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:04:38,484 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -1}
+2026-02-28 21:04:38,527 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:04:39,723 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 126.0
+2026-02-28 21:04:40,908 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 21:04:42,108 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4492.0
+2026-02-28 21:04:43,325 - GentleFlatten - INFO - Attempting: BUY 1x LON_ETF @ 9319.0
+2026-02-28 21:04:44,472 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:04:59,478 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:05:00,646 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -30, 'LON_ETF': -1}
+2026-02-28 21:05:00,689 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:05:01,885 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 126.0
+2026-02-28 21:05:03,096 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3328.0
+2026-02-28 21:05:04,282 - GentleFlatten - INFO - Attempting: BUY 20x WX_SPOT @ 4506.0
+2026-02-28 21:05:05,485 - GentleFlatten - INFO - Attempting: BUY 1x LON_ETF @ 9319.0
+2026-02-28 21:05:06,652 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:05:21,659 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:05:22,830 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'WX_SPOT': -10, 'LON_ETF': -1}
+2026-02-28 21:05:22,873 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:05:24,079 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 127.0
+2026-02-28 21:05:25,281 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3330.0
+2026-02-28 21:05:26,480 - GentleFlatten - INFO - Attempting: BUY 10x WX_SPOT @ 4506.0
+2026-02-28 21:05:27,675 - GentleFlatten - INFO - Attempting: BUY 1x LON_ETF @ 9128.0
+2026-02-28 21:05:28,830 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:05:43,837 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:05:45,013 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33, 'LON_ETF': -1}
+2026-02-28 21:05:45,054 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:05:46,259 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 126.0
+2026-02-28 21:05:47,482 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3330.0
+2026-02-28 21:05:48,701 - GentleFlatten - INFO - Attempting: BUY 1x LON_ETF @ 9412.0
+2026-02-28 21:05:49,869 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:06:04,875 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:06:06,059 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 21, 'LHR_INDEX': 63, 'WX_SUM': 33}
+2026-02-28 21:06:06,101 - GentleFlatten - INFO - Attempting: SELL 20x LHR_COUNT @ 1856.0
+2026-02-28 21:06:07,298 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 127.0
+2026-02-28 21:06:08,499 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3330.0
+2026-02-28 21:06:09,678 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:06:24,689 - GentleFlatten - INFO - Cleaning up old orders...
+2026-02-28 21:06:25,862 - GentleFlatten - INFO - Positions to close: {'LHR_COUNT': 1, 'LHR_INDEX': 63, 'WX_SUM': 33}
+2026-02-28 21:06:25,910 - GentleFlatten - INFO - Attempting: SELL 1x LHR_COUNT @ 2224.0
+2026-02-28 21:06:27,132 - GentleFlatten - INFO - Attempting: SELL 20x LHR_INDEX @ 126.0
+2026-02-28 21:06:28,367 - GentleFlatten - INFO - Attempting: SELL 20x WX_SUM @ 3327.0
+2026-02-28 21:06:29,522 - GentleFlatten - INFO - Batch sent. Resting for 15s to allow for fills...
+2026-02-28 21:06:34,280 - GentleFlatten - INFO - Stopped by user.

@@ -1,0 +1,29 @@
+2026-03-01 00:38:14,410 - __main__ - INFO - ============================================================
+2026-03-01 00:38:14,410 - __main__ - INFO - IMCity Trading Bot
+2026-03-01 00:38:14,410 - __main__ - INFO - ============================================================
+2026-03-01 00:38:14,410 - __main__ - INFO - Bot:      hybrid
+2026-03-01 00:38:14,410 - __main__ - INFO - Exchange: test
+2026-03-01 00:38:14,410 - __main__ - INFO - URL:      http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/
+2026-03-01 00:38:14,410 - __main__ - INFO - User:     Brestttt
+2026-03-01 00:38:14,410 - __main__ - INFO - Width:    5.0
+2026-03-01 00:38:14,410 - __main__ - INFO - Volume:   5
+2026-03-01 00:38:14,410 - __main__ - WARNING - DRY RUN MODE (no orders will be sent)
+2026-03-01 00:38:14,410 - __main__ - INFO - ============================================================
+2026-03-01 00:38:14,410 - bots.hybrid_bot - WARNING - 🔴 DRY RUN MODE ENABLED - No real orders will be sent! 🔴
+2026-03-01 00:38:14,410 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True, dry_run=True
+2026-03-01 00:38:14,410 - utils.alerting - WARNING - ⚠️ Alerting disabled (no webhook URL configured)
+2026-03-01 00:38:14,410 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-03-01 00:38:14,681 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-03-01 00:38:14,689 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-03-01 00:38:14,692 - bots.hybrid_bot - INFO - Strategies: ['SettlementFlattener', 'MarketMaker', 'ETFArbitrageV2']
+2026-03-01 00:38:46,337 - execution.order_manager - INFO - [DRY RUN] Would send order: LHR_COUNT BUY 4@4173.0
+2026-03-01 00:38:46,333 - bots.hybrid_bot - INFO - Stopping...
+2026-03-01 00:38:46,337 - execution.order_manager - INFO - [DRY RUN] Would send order: LHR_COUNT SELL 5@4184.0
+2026-03-01 00:38:46,345 - execution.order_manager - ERROR - Batch order exception for LHR_COUNT: OrderResponse.__init__() missing 2 required positional arguments: 'user' and 'timestamp'
+2026-03-01 00:38:46,347 - execution.order_manager - ERROR - Batch order exception for LHR_COUNT: OrderResponse.__init__() missing 2 required positional arguments: 'user' and 'timestamp'
+2026-03-01 00:38:46,583 - execution.order_manager - INFO - [DRY RUN] Would send order: WX_SPOT BUY 5@4013.0
+2026-03-01 00:38:46,583 - execution.order_manager - INFO - [DRY RUN] Would send order: WX_SPOT SELL 4@4025.0
+2026-03-01 00:38:46,584 - execution.order_manager - ERROR - Batch order exception for WX_SPOT: OrderResponse.__init__() missing 2 required positional arguments: 'user' and 'timestamp'
+2026-03-01 00:38:46,584 - execution.order_manager - ERROR - Batch order exception for WX_SPOT: OrderResponse.__init__() missing 2 required positional arguments: 'user' and 'timestamp'
+2026-03-01 00:38:46,586 - execution.order_manager - INFO - Shutting down order manager
+2026-03-01 00:38:46,589 - bots.hybrid_bot - INFO - Bot shutdown complete

@@ -1,0 +1,27 @@
+2026-02-28 20:13:38,183 - __main__ - INFO - ============================================================
+2026-02-28 20:13:38,184 - __main__ - INFO - IMCity Trading Bot
+2026-02-28 20:13:38,184 - __main__ - INFO - ============================================================
+2026-02-28 20:13:38,184 - __main__ - INFO - Bot:      hybrid
+2026-02-28 20:13:38,184 - __main__ - INFO - Exchange: challenge
+2026-02-28 20:13:38,184 - __main__ - INFO - URL:      http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/
+2026-02-28 20:13:38,184 - __main__ - INFO - User:     Brestttt
+2026-02-28 20:13:38,184 - __main__ - INFO - Width:    5.0
+2026-02-28 20:13:38,184 - __main__ - INFO - Volume:   5
+2026-02-28 20:13:38,184 - __main__ - INFO - ============================================================
+2026-02-28 20:13:38,184 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-02-28 20:13:38,268 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-02-28 20:13:38,268 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-02-28 20:13:38,268 - bots.hybrid_bot - INFO - Strategies: ['MarketMaker', 'ETFArbitrage']
+2026-02-28 20:14:08,318 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:14:08,320 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:14:38,342 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:14:38,353 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:15:08,431 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:15:08,432 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:15:38,445 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:15:38,449 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:16:08,540 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:16:08,546 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:16:38,559 - bots.hybrid_bot - WARNING - ⚠️  NO ORDERBOOKS RECEIVED IN LAST 30 SECONDS!
+2026-02-28 20:16:38,563 - bots.hybrid_bot - WARNING -    SSE stream may not be working - check connection
+2026-02-28 20:17:02,323 - bots.hybrid_bot - INFO - Stopping...

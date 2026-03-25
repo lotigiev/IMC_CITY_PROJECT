@@ -1,0 +1,29 @@
+2026-02-28 21:43:14,258 - __main__ - INFO - ============================================================
+2026-02-28 21:43:14,258 - __main__ - INFO - IMCity Trading Bot
+2026-02-28 21:43:14,258 - __main__ - INFO - ============================================================
+2026-02-28 21:43:14,258 - __main__ - INFO - Bot:      hybrid
+2026-02-28 21:43:14,259 - __main__ - INFO - Exchange: challenge
+2026-02-28 21:43:14,259 - __main__ - INFO - URL:      http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/
+2026-02-28 21:43:14,259 - __main__ - INFO - User:     Brestttt
+2026-02-28 21:43:14,259 - __main__ - INFO - Width:    10.0
+2026-02-28 21:43:14,259 - __main__ - INFO - Volume:   2
+2026-02-28 21:43:14,259 - __main__ - INFO - ============================================================
+2026-02-28 21:43:14,259 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-02-28 21:43:14,330 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-02-28 21:43:14,331 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-02-28 21:43:14,331 - bots.hybrid_bot - INFO - Strategies: ['MarketMaker', 'ETFArbitrage']
+2026-02-28 21:43:14,331 - bots.hybrid_bot - ERROR - CRITICAL ERROR in HybridBot run loop: 'HybridBot' object has no attribute '_last_orderbook_check'
+Traceback (most recent call last):
+  File "/Users/victor/Desktop/ALGOTHON/IMC/CODES/bots/hybrid_bot.py", line 162, in run
+    if now - self._last_orderbook_check > 30:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'HybridBot' object has no attribute '_last_orderbook_check'
+2026-02-28 21:43:14,552 - __main__ - ERROR - Bot crashed: 'HybridBot' object has no attribute '_last_orderbook_check'
+Traceback (most recent call last):
+  File "/Users/victor/Desktop/ALGOTHON/IMC/CODES/bots/runner.py", line 46, in main
+    bot.run(sync_interval=60)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/victor/Desktop/ALGOTHON/IMC/CODES/bots/hybrid_bot.py", line 162, in run
+    if now - self._last_orderbook_check > 30:
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'HybridBot' object has no attribute '_last_orderbook_check'

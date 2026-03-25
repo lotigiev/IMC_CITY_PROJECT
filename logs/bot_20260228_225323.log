@@ -1,0 +1,51 @@
+2026-02-28 22:53:23,644 - __main__ - INFO - ============================================================
+2026-02-28 22:53:23,644 - __main__ - INFO - IMCity Trading Bot
+2026-02-28 22:53:23,644 - __main__ - INFO - ============================================================
+2026-02-28 22:53:23,645 - __main__ - INFO - Bot:      hybrid
+2026-02-28 22:53:23,645 - __main__ - INFO - Exchange: challenge
+2026-02-28 22:53:23,645 - __main__ - INFO - URL:      http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/
+2026-02-28 22:53:23,645 - __main__ - INFO - User:     Brestttt
+2026-02-28 22:53:23,645 - __main__ - INFO - Width:    10.0
+2026-02-28 22:53:23,645 - __main__ - INFO - Volume:   2
+2026-02-28 22:53:23,645 - __main__ - INFO - ============================================================
+2026-02-28 22:53:23,645 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-02-28 22:53:23,645 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-02-28 22:53:23,645 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-02-28 22:53:23,645 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-02-28 22:53:23,645 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-02-28 22:53:23,645 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-02-28 22:53:23,645 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-02-28 22:53:23,645 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-02-28 22:53:23,645 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-02-28 22:53:23,645 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True
+2026-02-28 22:53:23,645 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-02-28 22:53:23,766 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-02-28 22:53:23,766 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-02-28 22:53:23,766 - bots.hybrid_bot - INFO - Strategies: ['MarketMaker', 'ETFArbitrage']
+2026-02-28 22:53:29,077 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #1 !!! (Monthly limit: 150)
+2026-02-28 22:53:29,733 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #2 !!! (Monthly limit: 150)
+2026-02-28 22:53:30,017 - data.flights - ERROR - Failed to fetch flight data: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 22:53:30,017 - data.flights - ERROR - Failed to estimate LHR_COUNT: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 22:53:30,020 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #3 !!! (Monthly limit: 150)
+2026-02-28 22:53:30,138 - data.flights - ERROR - Failed to fetch flight data: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 22:53:30,138 - data.flights - ERROR - Failed to estimate LHR_INDEX: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 22:53:30,140 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #4 !!! (Monthly limit: 150)
+2026-02-28 22:53:30,406 - data.flights - ERROR - Failed to fetch flight data: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 22:53:30,407 - data.flights - ERROR - Failed to estimate LHR_COUNT: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 22:53:30,409 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-02-28 22:53:30,420 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #5 !!! (Monthly limit: 150)
+2026-02-28 22:53:38,421 - risk.pnl_monitor - INFO - Trade: BUY 3x LHR_COUNT @ 1974.00, realized P&L: +0.00, position: +3
+2026-02-28 22:53:38,442 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3311.00, realized P&L: +0.00, position: +1
+2026-02-28 22:53:38,442 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3344.00, realized P&L: +0.00, position: +2
+2026-02-28 22:53:41,368 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for LON_FLY @ 3884.0
+2026-02-28 22:53:45,348 - risk.pnl_monitor - INFO - Trade: BUY 10x LON_FLY @ 3884.00, realized P&L: +0.00, position: +10
+2026-02-28 22:53:45,351 - risk.pnl_monitor - INFO - Trade: BUY 6x LON_FLY @ 3884.00, realized P&L: +0.00, position: +16
+2026-02-28 22:54:27,589 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 1922.00, realized P&L: +0.00, position: +4
+2026-02-28 22:54:27,591 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 2000.00, realized P&L: +0.00, position: +5
+2026-02-28 22:54:27,591 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 2000.00, realized P&L: +0.00, position: +6
+2026-02-28 22:54:27,617 - risk.pnl_monitor - INFO - Trade: BUY 3x LHR_INDEX @ 216.00, realized P&L: +0.00, position: +3
+2026-02-28 22:54:27,627 - risk.pnl_monitor - INFO - Trade: BUY 3.0x LON_ETF @ 9120.00, realized P&L: +0.00, position: +3
+2026-02-28 22:54:27,627 - risk.pnl_monitor - INFO - Trade: BUY 1.0x LON_ETF @ 9200.00, realized P&L: +0.00, position: +4
+2026-02-28 22:54:27,796 - risk.pnl_monitor - INFO - Trade: BUY 5x LON_FLY @ 3750.00, realized P&L: +0.00, position: +21
+2026-02-28 22:57:38,133 - bots.hybrid_bot - INFO - Stopping...
+2026-02-28 22:57:39,265 - execution.order_manager - INFO - Shutting down order manager

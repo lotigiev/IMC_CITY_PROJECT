@@ -1,0 +1,28 @@
+2026-03-01 02:20:01,235 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 02:20:01,236 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 02:20:01,237 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 02:20:01,237 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 02:20:01,237 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 02:20:01,237 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 02:20:01,237 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 02:20:01,237 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 02:20:49,340 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2989.0
+2026-03-01 02:20:56,056 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8919.0
+2026-03-01 02:20:58,750 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2978.0
+2026-03-01 02:21:02,911 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2990.0
+2026-03-01 02:21:15,460 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2988.0
+2026-03-01 02:21:17,262 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8925.0
+2026-03-01 02:21:19,331 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2989.0
+2026-03-01 02:21:24,937 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2989.0
+2026-03-01 02:21:30,139 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2976.0
+2026-03-01 02:21:32,658 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2990.0
+2026-03-01 02:21:35,482 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8919.0
+2026-03-01 02:21:43,809 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2997.0
+2026-03-01 02:21:48,900 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2979.0
+2026-03-01 02:21:51,114 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2989.0
+2026-03-01 02:21:55,905 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2979.0
+2026-03-01 02:21:59,140 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2990.0
+2026-03-01 02:22:09,778 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2976.0
+2026-03-01 02:22:11,866 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2999.0
+2026-03-01 02:22:15,213 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2989.0
+2026-03-01 02:22:38,103 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for TIDE_SPOT @ 2989.0

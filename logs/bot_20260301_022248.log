@@ -1,0 +1,248 @@
+2026-03-01 02:22:48,866 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 02:22:48,866 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 02:22:48,866 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 02:22:48,866 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 02:22:48,866 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 02:22:48,866 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 02:22:48,866 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 02:22:48,866 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 02:22:48,866 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -100000
+2026-03-01 02:22:48,866 - __main__ - INFO - 🔄 Syncing from exchange...
+2026-03-01 02:22:49,145 - __main__ - INFO - Exchange positions: {'LHR_COUNT': 13, 'LON_FLY': 49, 'LHR_INDEX': 23, 'TIDE_SWING': -14, 'WX_SUM': 16, 'TIDE_SPOT': -93, 'WX_SPOT': -72, 'LON_ETF': 60}
+2026-03-01 02:22:49,145 - __main__ - INFO - ✅ Positions synced
+2026-03-01 02:22:49,322 - __main__ - INFO - Exchange P&L: {'user': 'Brestttt', 'totalProfit': -63763.0, 'details': [{'product': 'LHR_COUNT', 'profit': -15911.0}, {'product': 'LON_FLY', 'profit': 61550.0}, {'product': 'LHR_INDEX', 'profit': -16788.0}, {'product': 'TIDE_SWING', 'profit': 5289.0}, {'product': 'WX_SUM', 'profit': 3305.0}, {'product': 'TIDE_SPOT', 'profit': -49404.0}, {'product': 'WX_SPOT', 'profit': -25597.0}, {'product': 'LON_ETF', 'profit': -26207.0}]}
+2026-03-01 02:22:49,323 - __main__ - INFO - Realized P&L from exchange: 0
+2026-03-01 02:22:52,353 - __main__ - INFO - Loaded 31816 recent trades
+2026-03-01 02:22:52,353 - __main__ - INFO - Pre-warming fair value cache...
+2026-03-01 02:23:01,059 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #1 !!! (Monthly limit: 150)
+2026-03-01 02:23:02,271 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:02,271 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:02,271 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:23:02,286 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:02,287 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:02,287 - data.flights - ERROR - Failed to estimate LHR_INDEX: Rate limit safety block active
+2026-03-01 02:23:02,287 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:02,287 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:02,287 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:23:02,287 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 02:23:05,949 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:05,950 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:05,950 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:23:05,950 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 02:23:05,950 - pricing.fair_value - WARNING - Missing ETF fair value for LON_FLY
+2026-03-01 02:23:05,950 - __main__ - INFO - ✅ Fair value cache warmed
+2026-03-01 02:23:07,460 - __main__ - INFO - Order sent: LON_ETF SELL 11@8893.0
+2026-03-01 02:23:07,951 - __main__ - INFO - Order sent: LHR_INDEX BUY 5@176.0
+2026-03-01 02:23:08,254 - __main__ - INFO - Order sent: LHR_INDEX SELL 8@184.0
+2026-03-01 02:23:09,218 - __main__ - INFO - Order sent: WX_SUM BUY 5@3394.0
+2026-03-01 02:23:09,701 - __main__ - INFO - Order sent: WX_SUM SELL 8@3401.0
+2026-03-01 02:23:10,422 - __main__ - INFO - Order sent: LON_FLY BUY 3@3680.0
+2026-03-01 02:23:10,892 - __main__ - INFO - Order sent: LON_FLY SELL 10@3689.0
+2026-03-01 02:23:11,548 - __main__ - INFO - Order sent: TIDE_SWING BUY 7@504.0
+2026-03-01 02:23:11,804 - __main__ - INFO - Order sent: TIDE_SWING SELL 6@512.0
+2026-03-01 02:23:12,727 - __main__ - INFO - Order sent: LON_FLY BUY 3@3687.0
+2026-03-01 02:23:12,872 - __main__ - INFO - Order sent: LON_FLY SELL 10@3695.0
+2026-03-01 02:23:14,430 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2797.0
+2026-03-01 02:23:14,765 - __main__ - INFO - Order sent: LHR_COUNT BUY 6@1198.0
+2026-03-01 02:23:15,081 - __main__ - INFO - Order sent: LHR_COUNT SELL 7@1206.0
+2026-03-01 02:23:15,957 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2795.0
+2026-03-01 02:23:16,522 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4586.0
+2026-03-01 02:23:16,529 - risk.pnl_monitor - INFO - Trade: BUY 4x WX_SUM @ 3324.00, realized P&L: +0.00, position: +4
+2026-03-01 02:23:16,529 - __main__ - INFO - ✅ TRADE: BUY 4x WX_SUM @ 3324 (buyer: Brestttt, seller: )
+2026-03-01 02:23:16,529 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3324.00, realized P&L: +0.00, position: +5
+2026-03-01 02:23:16,529 - __main__ - INFO - ✅ TRADE: BUY 1x WX_SUM @ 3324 (buyer: Brestttt, seller: )
+2026-03-01 02:23:16,533 - __main__ - INFO - 📊 LON_FLY: 3673.0/3713.0 (received 10 orderbooks)
+2026-03-01 02:23:16,533 - __main__ - INFO - 📊 LON_ETF: 8882.0/8893.0 (received 10 orderbooks)
+2026-03-01 02:23:17,598 - __main__ - INFO - Order sent: LON_FLY BUY 3@3678.0
+2026-03-01 02:23:18,177 - __main__ - INFO - Order sent: LON_FLY SELL 10@3687.0
+2026-03-01 02:23:19,367 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4585.0
+2026-03-01 02:23:20,972 - __main__ - INFO - Order sent: LON_FLY BUY 3@3691.0
+2026-03-01 02:23:21,322 - __main__ - INFO - Order sent: LON_FLY SELL 10@3699.0
+2026-03-01 02:23:21,326 - __main__ - INFO - 📊 TIDE_SWING: 504.0/506.0 (received 10 orderbooks)
+2026-03-01 02:23:21,331 - risk.pnl_monitor - INFO - Trade: SELL 5x LON_ETF @ 8893.00, realized P&L: +0.00, position: -5
+2026-03-01 02:23:21,336 - __main__ - INFO - ✅ TRADE: SELL 5x LON_ETF @ 8893.0 (buyer: , seller: Brestttt)
+2026-03-01 02:23:21,339 - __main__ - INFO - 📊 LHR_INDEX: 177.0/184.0 (received 10 orderbooks)
+2026-03-01 02:23:21,341 - __main__ - INFO - 📊 WX_SUM: 3323.0/3324.0 (received 10 orderbooks)
+2026-03-01 02:23:21,346 - __main__ - INFO - 📊 LHR_COUNT: 1202.0/1203.0 (received 10 orderbooks)
+2026-03-01 02:23:22,510 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2784.0
+2026-03-01 02:23:22,513 - __main__ - INFO - 📊 WX_SPOT: 4690.0/4696.0 (received 10 orderbooks)
+2026-03-01 02:23:22,567 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:22,567 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:22,567 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:23:22,567 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:22,567 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:22,567 - data.flights - ERROR - Failed to estimate LHR_INDEX: Rate limit safety block active
+2026-03-01 02:23:22,568 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:22,568 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:22,568 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:23:22,568 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 02:23:22,570 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:22,570 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:22,570 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:23:22,570 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 02:23:22,570 - pricing.fair_value - WARNING - Missing ETF fair value for LON_FLY
+2026-03-01 02:23:28,929 - __main__ - INFO - Order sent: LON_ETF SELL 10@8902.0
+2026-03-01 02:23:28,932 - __main__ - INFO - 📊 TIDE_SPOT: 2965.0/2977.0 (received 10 orderbooks)
+2026-03-01 02:23:28,940 - __main__ - INFO - 📊 LON_FLY: 3688.0/3695.0 (received 20 orderbooks)
+2026-03-01 02:23:30,599 - __main__ - INFO - Order sent: LON_FLY BUY 3@3694.0
+2026-03-01 02:23:30,791 - __main__ - INFO - Order sent: LON_FLY SELL 10@3703.0
+2026-03-01 02:23:31,384 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2795.0
+2026-03-01 02:23:31,908 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4587.0
+2026-03-01 02:23:31,915 - __main__ - INFO - 📊 TIDE_SPOT: 2965.0/2974.0 (received 20 orderbooks)
+2026-03-01 02:23:32,691 - __main__ - INFO - Order sent: LON_FLY BUY 3@3687.0
+2026-03-01 02:23:32,833 - __main__ - INFO - Order sent: LON_FLY SELL 10@3695.0
+2026-03-01 02:23:33,505 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2783.0
+2026-03-01 02:23:33,506 - __main__ - INFO - 📊 LON_ETF: 8882.0/8893.0 (received 20 orderbooks)
+2026-03-01 02:23:33,511 - __main__ - INFO - 📊 LHR_COUNT: 1202.0/1203.0 (received 20 orderbooks)
+2026-03-01 02:23:34,323 - __main__ - INFO - Order sent: LHR_INDEX BUY 5@176.0
+2026-03-01 02:23:34,493 - __main__ - INFO - Order sent: LHR_INDEX SELL 8@183.0
+2026-03-01 02:23:35,889 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4586.0
+2026-03-01 02:23:35,891 - __main__ - INFO - 📊 TIDE_SWING: 504.0/506.0 (received 20 orderbooks)
+2026-03-01 02:23:37,945 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2785.0
+2026-03-01 02:23:37,946 - __main__ - INFO - 📊 WX_SPOT: 4690.0/4696.0 (received 20 orderbooks)
+2026-03-01 02:23:39,944 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4585.0
+2026-03-01 02:23:41,417 - __main__ - INFO - Order sent: LON_ETF SELL 10@8889.0
+2026-03-01 02:23:43,004 - __main__ - INFO - Order sent: LHR_COUNT BUY 6@1195.0
+2026-03-01 02:23:43,348 - __main__ - INFO - Order sent: LHR_COUNT SELL 7@1202.0
+2026-03-01 02:23:44,385 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2797.0
+2026-03-01 02:23:44,386 - __main__ - INFO - 📊 WX_SUM: 3323.0/3324.0 (received 20 orderbooks)
+2026-03-01 02:23:44,388 - __main__ - INFO - 📊 TIDE_SPOT: 2971.0/3000.0 (received 30 orderbooks)
+2026-03-01 02:23:44,388 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 3687.00, realized P&L: +0.00, position: -1
+2026-03-01 02:23:44,389 - __main__ - INFO - ✅ TRADE: SELL 1x LON_FLY @ 3687.0 (buyer: , seller: Brestttt)
+2026-03-01 02:23:45,640 - __main__ - INFO - Order sent: LON_FLY BUY 3@3678.0
+2026-03-01 02:23:45,812 - __main__ - INFO - Order sent: LON_FLY SELL 10@3686.0
+2026-03-01 02:23:46,699 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2788.0
+2026-03-01 02:23:46,701 - risk.pnl_monitor - INFO - Trade: SELL 4x LON_ETF @ 8893.00, realized P&L: +0.00, position: -9
+2026-03-01 02:23:46,701 - __main__ - INFO - ✅ TRADE: SELL 4x LON_ETF @ 8893.0 (buyer: , seller: Brestttt)
+2026-03-01 02:23:47,674 - __main__ - INFO - Order sent: LON_ETF SELL 10@8877.0
+2026-03-01 02:23:47,679 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_FLY @ 3678.0
+2026-03-01 02:23:48,709 - __main__ - INFO - Order sent: LON_FLY SELL 10@3678.0
+2026-03-01 02:23:49,042 - __main__ - INFO - Order sent: LON_FLY BUY 3@3642.0
+2026-03-01 02:23:49,505 - __main__ - INFO - Order sent: LON_FLY SELL 10@3650.0
+2026-03-01 02:23:50,092 - __main__ - INFO - Order sent: LON_ETF SELL 10@8889.0
+2026-03-01 02:23:50,093 - __main__ - INFO - 📊 LON_FLY: 3679.0/3695.0 (received 30 orderbooks)
+2026-03-01 02:23:50,748 - __main__ - INFO - Order sent: LON_FLY BUY 3@3681.0
+2026-03-01 02:23:51,006 - __main__ - INFO - Order sent: LON_FLY SELL 10@3689.0
+2026-03-01 02:23:51,709 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2785.0
+2026-03-01 02:23:51,711 - __main__ - INFO - 📊 LON_ETF: 8883.0/8891.0 (received 30 orderbooks)
+2026-03-01 02:23:51,712 - __main__ - INFO - 📊 LHR_INDEX: 177.0/184.0 (received 20 orderbooks)
+2026-03-01 02:23:51,721 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_ETF @ 8893.00, realized P&L: +0.00, position: -11
+2026-03-01 02:23:51,721 - __main__ - INFO - ✅ TRADE: SELL 2x LON_ETF @ 8893.0 (buyer: , seller: Brestttt)
+2026-03-01 02:23:52,692 - __main__ - INFO - Order sent: LON_ETF BUY 3@8882.0
+2026-03-01 02:23:53,108 - __main__ - INFO - Order sent: LON_ETF SELL 10@8890.0
+2026-03-01 02:23:53,134 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:53,135 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:53,135 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:23:53,135 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:53,135 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:53,135 - data.flights - ERROR - Failed to estimate LHR_INDEX: Rate limit safety block active
+2026-03-01 02:23:53,135 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:53,135 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:53,135 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:23:53,135 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 02:23:53,137 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:23:53,137 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:23:53,137 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:23:53,137 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 02:23:53,137 - pricing.fair_value - WARNING - Missing ETF fair value for LON_FLY
+2026-03-01 02:23:53,770 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2795.0
+2026-03-01 02:23:54,558 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4586.0
+2026-03-01 02:23:55,328 - __main__ - INFO - Order sent: LON_ETF BUY 3@8869.0
+2026-03-01 02:23:55,623 - __main__ - INFO - Order sent: LON_ETF SELL 10@8877.0
+2026-03-01 02:23:55,627 - __main__ - INFO - 📊 TIDE_SPOT: 2965.0/2981.0 (received 40 orderbooks)
+2026-03-01 02:23:56,317 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2786.0
+2026-03-01 02:23:57,264 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4585.0
+2026-03-01 02:23:58,549 - __main__ - INFO - Order sent: LON_ETF BUY 3@8881.0
+2026-03-01 02:23:58,857 - __main__ - INFO - Order sent: LON_ETF SELL 10@8890.0
+2026-03-01 02:24:00,122 - __main__ - INFO - Order sent: LON_FLY BUY 3@3697.0
+2026-03-01 02:24:00,646 - __main__ - INFO - Order sent: LON_FLY SELL 10@3705.0
+2026-03-01 02:24:00,649 - __main__ - INFO - 📊 WX_SPOT: 4689.0/4696.0 (received 30 orderbooks)
+2026-03-01 02:24:00,651 - __main__ - INFO - 📊 LHR_COUNT: 1198.0/1203.0 (received 30 orderbooks)
+2026-03-01 02:24:00,652 - __main__ - INFO - 📊 LON_ETF: 8857.0/8893.0 (received 40 orderbooks)
+2026-03-01 02:24:01,529 - __main__ - INFO - Order sent: LON_ETF BUY 3@8869.0
+2026-03-01 02:24:02,169 - __main__ - INFO - Order sent: LON_ETF SELL 10@8877.0
+2026-03-01 02:24:02,182 - __main__ - INFO - 📊 WX_SUM: 3323.0/3324.0 (received 30 orderbooks)
+2026-03-01 02:24:03,794 - __main__ - INFO - Order sent: LHR_INDEX BUY 5@176.0
+2026-03-01 02:24:04,244 - __main__ - INFO - Order sent: LHR_INDEX SELL 8@184.0
+2026-03-01 02:24:05,364 - __main__ - INFO - Order sent: LON_ETF BUY 3@8904.0
+2026-03-01 02:24:06,054 - __main__ - INFO - Order sent: LON_ETF SELL 10@8912.0
+2026-03-01 02:24:06,058 - __main__ - INFO - 📊 LHR_INDEX: 177.0/184.0 (received 30 orderbooks)
+2026-03-01 02:24:06,062 - __main__ - INFO - 📊 TIDE_SWING: 504.0/506.0 (received 30 orderbooks)
+2026-03-01 02:24:06,066 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 3699.00, realized P&L: +0.00, position: -2
+2026-03-01 02:24:06,067 - __main__ - INFO - ✅ TRADE: SELL 1x LON_FLY @ 3699.0 (buyer: , seller: Brestttt)
+2026-03-01 02:24:06,067 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 1198.00, realized P&L: +0.00, position: +1
+2026-03-01 02:24:06,067 - __main__ - INFO - ✅ TRADE: BUY 1x LHR_COUNT @ 1198.0 (buyer: Brestttt, seller: )
+2026-03-01 02:24:06,068 - __main__ - INFO - 📊 LON_FLY: 3691.0/3699.0 (received 40 orderbooks)
+2026-03-01 02:24:06,069 - __main__ - INFO - 📊 LON_ETF: 8871.0/8927.0 (received 50 orderbooks)
+2026-03-01 02:24:06,075 - __main__ - INFO - 📊 TIDE_SPOT: 2965.0/2981.0 (received 50 orderbooks)
+2026-03-01 02:24:06,850 - __main__ - INFO - Order sent: LHR_COUNT BUY 6@1196.0
+2026-03-01 02:24:07,550 - __main__ - INFO - Order sent: LHR_COUNT SELL 7@1204.0
+2026-03-01 02:24:08,927 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2784.0
+2026-03-01 02:24:08,928 - __main__ - INFO - 📊 WX_SPOT: 4690.0/4696.0 (received 40 orderbooks)
+2026-03-01 02:24:09,998 - __main__ - INFO - Order sent: LON_ETF BUY 3@8892.0
+2026-03-01 02:24:10,295 - __main__ - INFO - Order sent: LON_ETF SELL 10@8901.0
+2026-03-01 02:24:11,096 - __main__ - INFO - Order sent: LHR_INDEX BUY 5@176.0
+2026-03-01 02:24:11,342 - __main__ - INFO - Order sent: LHR_INDEX SELL 8@183.0
+2026-03-01 02:24:11,875 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4584.0
+2026-03-01 02:24:11,876 - __main__ - INFO - 📊 LHR_COUNT: 1198.0/1203.0 (received 40 orderbooks)
+2026-03-01 02:24:12,657 - __main__ - INFO - Order sent: LON_ETF BUY 3@8886.0
+2026-03-01 02:24:13,315 - __main__ - INFO - Order sent: LON_ETF SELL 10@8894.0
+2026-03-01 02:24:14,290 - __main__ - INFO - Order sent: LON_FLY BUY 3@3754.0
+2026-03-01 02:24:14,802 - __main__ - INFO - Order sent: LON_FLY SELL 10@3763.0
+2026-03-01 02:24:15,525 - __main__ - INFO - Order sent: LON_ETF BUY 3@8893.0
+2026-03-01 02:24:15,796 - __main__ - INFO - Order sent: LON_ETF SELL 10@8902.0
+2026-03-01 02:24:15,798 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_FLY @ 3694.0
+2026-03-01 02:24:16,344 - __main__ - INFO - Order sent: LON_FLY SELL 10@3694.0
+2026-03-01 02:24:16,675 - __main__ - INFO - Order sent: LON_FLY BUY 3@3689.0
+2026-03-01 02:24:17,024 - __main__ - INFO - Order sent: LON_FLY SELL 10@3697.0
+2026-03-01 02:24:17,028 - __main__ - INFO - 📊 LON_ETF: 8881.0/8902.0 (received 60 orderbooks)
+2026-03-01 02:24:17,030 - __main__ - INFO - 📊 LON_FLY: 3694.0/3699.0 (received 50 orderbooks)
+2026-03-01 02:24:17,934 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4585.0
+2026-03-01 02:24:17,937 - __main__ - INFO - 📊 WX_SUM: 3323.0/3324.0 (received 40 orderbooks)
+2026-03-01 02:24:17,938 - __main__ - INFO - 📊 WX_SPOT: 4690.0/4696.0 (received 50 orderbooks)
+2026-03-01 02:24:18,998 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2786.0
+2026-03-01 02:24:19,002 - __main__ - INFO - 📊 LHR_INDEX: 177.0/184.0 (received 40 orderbooks)
+2026-03-01 02:24:19,003 - __main__ - INFO - 📊 TIDE_SPOT: 2965.0/2974.0 (received 60 orderbooks)
+2026-03-01 02:24:20,046 - __main__ - INFO - Order sent: LON_ETF BUY 3@8898.0
+2026-03-01 02:24:20,571 - __main__ - INFO - Order sent: LON_ETF SELL 10@8906.0
+2026-03-01 02:24:21,647 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2784.0
+2026-03-01 02:24:22,164 - __main__ - INFO - Order sent: LON_ETF BUY 3@8863.0
+2026-03-01 02:24:22,675 - __main__ - INFO - Order sent: LON_ETF SELL 10@8871.0
+2026-03-01 02:24:23,879 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4589.0
+2026-03-01 02:24:23,908 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:24:23,908 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:24:23,908 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:24:23,909 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:24:23,909 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:24:23,909 - data.flights - ERROR - Failed to estimate LHR_INDEX: Rate limit safety block active
+2026-03-01 02:24:23,909 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:24:23,909 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:24:23,909 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:24:23,909 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 02:24:23,911 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 02:24:23,911 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 02:24:23,911 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 02:24:23,911 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 02:24:23,911 - pricing.fair_value - WARNING - Missing ETF fair value for LON_FLY
+2026-03-01 02:24:24,597 - __main__ - INFO - Order sent: LON_ETF BUY 3@8898.0
+2026-03-01 02:24:24,971 - __main__ - INFO - Order sent: LON_ETF SELL 10@8907.0
+2026-03-01 02:24:24,973 - __main__ - INFO - 📊 LHR_COUNT: 1198.0/1203.0 (received 50 orderbooks)
+2026-03-01 02:24:24,979 - __main__ - INFO - 📊 TIDE_SWING: 504.0/506.0 (received 40 orderbooks)
+2026-03-01 02:24:26,335 - __main__ - INFO - Order sent: TIDE_SWING BUY 7@498.0
+2026-03-01 02:24:26,509 - __main__ - INFO - Order sent: TIDE_SWING SELL 6@506.0
+2026-03-01 02:24:26,510 - __main__ - INFO - 📊 TIDE_SPOT: 2965.0/2976.0 (received 70 orderbooks)
+2026-03-01 02:24:27,193 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4586.0
+2026-03-01 02:24:27,194 - __main__ - INFO - 📊 LON_ETF: 8871.0/8902.0 (received 70 orderbooks)
+2026-03-01 02:24:28,187 - __main__ - INFO - Order sent: LON_ETF BUY 3@8893.0
+2026-03-01 02:24:28,559 - __main__ - INFO - Order sent: LON_ETF SELL 10@8901.0
+2026-03-01 02:24:29,965 - __main__ - INFO - Order sent: TIDE_SWING BUY 7@505.0
+2026-03-01 02:24:30,213 - __main__ - INFO - Order sent: TIDE_SWING SELL 6@512.0
+2026-03-01 02:24:30,978 - __main__ - INFO - Order sent: LON_ETF BUY 3@8880.0
+2026-03-01 02:24:31,233 - __main__ - INFO - Order sent: LON_ETF SELL 10@8888.0
+2026-03-01 02:24:31,235 - __main__ - INFO - 📊 WX_SPOT: 4690.0/4697.0 (received 60 orderbooks)
+2026-03-01 02:24:31,922 - __main__ - INFO - Order sent: WX_SPOT BUY 12@4587.0
+2026-03-01 02:24:31,925 - __main__ - INFO - 📊 LHR_INDEX: 177.0/183.0 (received 50 orderbooks)
+2026-03-01 02:24:33,062 - __main__ - INFO - Order sent: TIDE_SPOT BUY 13@2783.0
+2026-03-01 02:24:33,065 - __main__ - INFO - 📊 WX_SUM: 3323.0/3324.0 (received 50 orderbooks)
+2026-03-01 02:54:50,616 - risk.pnl_monitor - INFO - Trade: BUY 3x LHR_COUNT @ 1198.00, realized P&L: +0.00, position: +4
+2026-03-01 02:54:50,662 - __main__ - INFO - ✅ TRADE: BUY 3x LHR_COUNT @ 1198.0 (buyer: Brestttt, seller: )

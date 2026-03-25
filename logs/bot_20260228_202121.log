@@ -1,0 +1,59 @@
+2026-02-28 20:21:22,528 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-02-28 20:21:22,529 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-02-28 20:21:22,529 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-02-28 20:21:22,529 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-02-28 20:21:22,529 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-02-28 20:21:22,529 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-02-28 20:21:22,529 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-02-28 20:21:22,530 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-02-28 20:21:22,531 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-02-28 20:21:22,714 - risk.position_limits - INFO - ============================================================
+2026-02-28 20:21:22,714 - risk.position_limits - INFO - POSITION SUMMARY
+2026-02-28 20:21:22,715 - risk.position_limits - INFO - ============================================================
+2026-02-28 20:21:22,715 - risk.position_limits - INFO - LHR_COUNT   :    +67  (limit:   -100 to   +100)
+2026-02-28 20:21:22,715 - risk.position_limits - INFO - LHR_INDEX   :    +60  (limit:   -100 to   +100)
+2026-02-28 20:21:22,716 - risk.position_limits - INFO - LON_ETF     :    -63  (limit:   -100 to   +100)
+2026-02-28 20:21:22,716 - risk.position_limits - INFO - LON_FLY     :    -60  (limit:   -100 to   +100)
+2026-02-28 20:21:22,716 - risk.position_limits - INFO - TIDE_SPOT   :    -59  (limit:   -100 to   +100)
+2026-02-28 20:21:22,716 - risk.position_limits - INFO - TIDE_SWING  :    -16  (limit:   -100 to   +100)
+2026-02-28 20:21:22,716 - risk.position_limits - INFO - WX_SPOT     :    -50  (limit:   -100 to   +100)
+2026-02-28 20:21:22,716 - risk.position_limits - INFO - WX_SUM      :    +56  (limit:   -100 to   +100)
+2026-02-28 20:21:22,717 - risk.position_limits - INFO - ------------------------------------------------------------
+2026-02-28 20:21:22,717 - risk.position_limits - INFO - Total Exposure: 431 / 500
+2026-02-28 20:21:22,717 - risk.position_limits - INFO - ============================================================
+2026-02-28 20:21:22,717 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 20:21:22,718 - risk.pnl_monitor - INFO - P&L SUMMARY
+2026-02-28 20:21:22,718 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 20:21:22,718 - risk.pnl_monitor - INFO - Total Realized P&L: +0.00
+2026-02-28 20:21:22,718 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 20:21:25,777 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 5126.00, realized P&L: +0.00, position: -1
+2026-02-28 20:21:25,777 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 5126.00, realized P&L: +0.00, position: -2
+2026-02-28 20:22:02,633 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 5126.00, realized P&L: +0.00, position: -3
+2026-02-28 20:22:06,797 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 2434.00, realized P&L: +0.00, position: +1
+2026-02-28 20:22:06,807 - risk.pnl_monitor - INFO - Trade: SELL 1x TIDE_SPOT @ 2933.00, realized P&L: +0.00, position: -1
+2026-02-28 20:22:06,807 - risk.pnl_monitor - INFO - Trade: SELL 1x TIDE_SPOT @ 2650.00, realized P&L: +0.00, position: -2
+2026-02-28 20:22:06,816 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_INDEX @ 164.00, realized P&L: +0.00, position: +1
+2026-02-28 20:22:06,816 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_INDEX @ 218.00, realized P&L: +0.00, position: +2
+2026-02-28 20:22:11,344 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9491.00, realized P&L: +0.00, position: -1
+2026-02-28 20:22:11,345 - risk.pnl_monitor - INFO - Trade: BUY 5x TIDE_SWING @ 480.00, realized P&L: +0.00, position: +5
+2026-02-28 20:22:11,346 - risk.pnl_monitor - INFO - Trade: BUY 2x WX_SUM @ 3341.00, realized P&L: +0.00, position: +2
+2026-02-28 20:22:11,349 - risk.pnl_monitor - INFO - Trade: SELL 2x WX_SPOT @ 4492.00, realized P&L: +0.00, position: -2
+2026-02-28 20:22:23,153 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_ETF @ 9622.00, realized P&L: -131.00, position: +2
+2026-02-28 20:22:24,175 - risk.position_limits - INFO - ============================================================
+2026-02-28 20:22:24,176 - risk.position_limits - INFO - POSITION SUMMARY
+2026-02-28 20:22:24,177 - risk.position_limits - INFO - ============================================================
+2026-02-28 20:22:24,177 - risk.position_limits - INFO - LHR_COUNT   :    +65  (limit:   -100 to   +100)
+2026-02-28 20:22:24,177 - risk.position_limits - INFO - LHR_INDEX   :    +62  (limit:   -100 to   +100)
+2026-02-28 20:22:24,177 - risk.position_limits - INFO - LON_ETF     :    -57  (limit:   -100 to   +100)
+2026-02-28 20:22:24,178 - risk.position_limits - INFO - LON_FLY     :    -61  (limit:   -100 to   +100)
+2026-02-28 20:22:24,178 - risk.position_limits - INFO - TIDE_SPOT   :    -61  (limit:   -100 to   +100)
+2026-02-28 20:22:24,179 - risk.position_limits - INFO - TIDE_SWING  :    -11  (limit:   -100 to   +100)
+2026-02-28 20:22:24,179 - risk.position_limits - INFO - WX_SPOT     :    -64  (limit:   -100 to   +100)
+2026-02-28 20:22:24,179 - risk.position_limits - INFO - WX_SUM      :    +58  (limit:   -100 to   +100)
+2026-02-28 20:22:24,180 - risk.position_limits - INFO - ------------------------------------------------------------
+2026-02-28 20:22:24,180 - risk.position_limits - INFO - Total Exposure: 439 / 500
+2026-02-28 20:22:24,180 - risk.position_limits - INFO - ============================================================
+2026-02-28 20:22:24,180 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 20:22:24,180 - risk.pnl_monitor - INFO - P&L SUMMARY
+2026-02-28 20:22:24,180 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 20:22:24,181 - risk.pnl_monitor - INFO - Total Realized P&L: -131.00

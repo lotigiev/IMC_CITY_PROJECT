@@ -1,0 +1,157 @@
+2026-03-01 02:15:23,892 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 02:15:23,892 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 02:15:23,892 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 02:15:23,892 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 02:15:23,892 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 02:15:23,892 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 02:15:23,892 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 02:15:23,892 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 02:15:23,892 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -100000
+2026-03-01 02:15:23,892 - __main__ - INFO - 🔄 Syncing from exchange...
+2026-03-01 02:15:24,225 - __main__ - INFO - Exchange positions: {'LHR_COUNT': 0, 'LON_FLY': 40, 'LHR_INDEX': 51, 'TIDE_SWING': -12, 'WX_SUM': 10, 'TIDE_SPOT': -34, 'WX_SPOT': -69, 'LON_ETF': 50}
+2026-03-01 02:15:24,225 - __main__ - INFO - ✅ Positions synced
+2026-03-01 02:15:24,509 - __main__ - INFO - Exchange P&L: {'user': 'Brestttt', 'totalProfit': -49609.0, 'details': [{'product': 'LHR_COUNT', 'profit': -15678.0}, {'product': 'LON_FLY', 'profit': 71310.0}, {'product': 'LHR_INDEX', 'profit': -16586.0}, {'product': 'TIDE_SWING', 'profit': 5109.0}, {'product': 'WX_SUM', 'profit': 3285.0}, {'product': 'TIDE_SPOT', 'profit': -49514.0}, {'product': 'WX_SPOT', 'profit': -25084.0}, {'product': 'LON_ETF', 'profit': -22451.0}]}
+2026-03-01 02:15:24,513 - __main__ - INFO - Realized P&L from exchange: 0
+2026-03-01 02:15:28,744 - __main__ - INFO - Loaded 30902 recent trades
+2026-03-01 02:15:30,414 - __main__ - INFO - Order sent: LHR_COUNT BUY 7@1231.0
+2026-03-01 02:15:31,173 - __main__ - INFO - Order sent: LHR_COUNT SELL 7@1238.0
+2026-03-01 02:15:31,175 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LHR_INDEX @ 165.0
+2026-03-01 02:15:32,057 - __main__ - INFO - Order sent: LHR_INDEX SELL 10@165.0
+2026-03-01 02:15:32,547 - __main__ - INFO - Order sent: LHR_INDEX SELL 10@169.0
+2026-03-01 02:15:33,100 - __main__ - INFO - Order sent: TIDE_SWING BUY 7@502.0
+2026-03-01 02:15:33,429 - __main__ - INFO - Order sent: TIDE_SWING SELL 6@510.0
+2026-03-01 02:15:34,516 - __main__ - INFO - Order sent: WX_SUM BUY 6@3319.0
+2026-03-01 02:15:34,959 - __main__ - INFO - Order sent: WX_SUM SELL 7@3327.0
+2026-03-01 02:15:34,961 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for TIDE_SPOT @ 3009.0
+2026-03-01 02:15:35,482 - __main__ - INFO - Order sent: TIDE_SPOT BUY 10@3009.0
+2026-03-01 02:15:35,725 - __main__ - INFO - Order sent: TIDE_SPOT BUY 9@3006.0
+2026-03-01 02:15:36,029 - __main__ - INFO - Order sent: TIDE_SPOT SELL 4@3014.0
+2026-03-01 02:15:36,030 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for WX_SPOT @ 4685.0
+2026-03-01 02:15:36,486 - __main__ - INFO - Order sent: WX_SPOT BUY 10@4685.0
+2026-03-01 02:15:36,855 - __main__ - INFO - Order sent: WX_SPOT BUY 11@4683.0
+2026-03-01 02:15:38,411 - __main__ - INFO - Order sent: LON_ETF SELL 10@8925.0
+2026-03-01 02:15:39,856 - __main__ - INFO - Order sent: LON_FLY BUY 4@3774.0
+2026-03-01 02:15:40,289 - __main__ - INFO - Order sent: LON_FLY SELL 9@3782.0
+2026-03-01 02:15:40,302 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8918.0
+2026-03-01 02:15:41,152 - __main__ - INFO - Order sent: LON_ETF SELL 10@8918.0
+2026-03-01 02:15:41,489 - __main__ - INFO - Order sent: LON_ETF SELL 10@8922.0
+2026-03-01 02:15:41,493 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_FLY @ 3658.0
+2026-03-01 02:15:42,862 - __main__ - INFO - Order sent: LON_FLY SELL 10@3658.0
+2026-03-01 02:15:43,988 - __main__ - INFO - Order sent: LON_FLY BUY 4@3653.0
+2026-03-01 02:15:45,797 - __main__ - INFO - Order sent: LON_FLY SELL 9@3661.0
+2026-03-01 02:15:51,976 - __main__ - INFO - Order sent: LON_FLY BUY 4@3626.0
+2026-03-01 02:15:52,334 - __main__ - INFO - Order sent: LON_FLY SELL 9@3634.0
+2026-03-01 02:15:52,337 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8916.0
+2026-03-01 02:15:53,405 - __main__ - INFO - Order sent: LON_ETF SELL 10@8916.0
+2026-03-01 02:15:54,071 - __main__ - INFO - Order sent: LON_ETF SELL 10@8919.0
+2026-03-01 02:15:54,876 - __main__ - INFO - Order sent: LON_FLY BUY 4@3641.0
+2026-03-01 02:15:55,187 - __main__ - INFO - Order sent: LON_FLY SELL 9@3649.0
+2026-03-01 02:15:55,192 - risk.pnl_monitor - INFO - Trade: SELL 1x LHR_INDEX @ 165.00, realized P&L: +0.00, position: -1
+2026-03-01 02:15:55,192 - __main__ - INFO - ✅ TRADE: SELL 1x LHR_INDEX @ 165 (buyer: , seller: Brestttt)
+2026-03-01 02:15:55,193 - __main__ - INFO - 📊 TIDE_SWING: 503.0/508.0 (received 10 orderbooks)
+2026-03-01 02:15:56,095 - __main__ - INFO - Order sent: LON_ETF SELL 10@8921.0
+2026-03-01 02:15:56,096 - __main__ - INFO - 📊 LHR_INDEX: 164.0/165.0 (received 10 orderbooks)
+2026-03-01 02:15:56,097 - __main__ - INFO - 📊 LON_FLY: 3635.0/3659.0 (received 10 orderbooks)
+2026-03-01 02:15:56,100 - risk.pnl_monitor - INFO - Trade: SELL 1x LHR_INDEX @ 165.00, realized P&L: +0.00, position: -2
+2026-03-01 02:15:56,100 - __main__ - INFO - ✅ TRADE: SELL 1x LHR_INDEX @ 165.0 (buyer: , seller: Brestttt)
+2026-03-01 02:15:56,100 - __main__ - INFO - 📊 LHR_COUNT: 1231.0/1238.0 (received 10 orderbooks)
+2026-03-01 02:15:57,036 - __main__ - INFO - Order sent: LON_FLY BUY 4@3777.0
+2026-03-01 02:15:57,373 - __main__ - INFO - Order sent: LON_FLY SELL 9@3785.0
+2026-03-01 02:15:57,376 - __main__ - INFO - 📊 WX_SPOT: 4684.0/4685.0 (received 10 orderbooks)
+2026-03-01 02:15:57,379 - __main__ - INFO - 📊 LON_ETF: 8916.0/8923.0 (received 10 orderbooks)
+2026-03-01 02:15:57,380 - __main__ - INFO - 📊 TIDE_SPOT: 3008.0/3009.0 (received 10 orderbooks)
+2026-03-01 02:15:57,382 - __main__ - INFO - 📊 WX_SUM: 3323.0/3324.0 (received 10 orderbooks)
+2026-03-01 02:15:57,384 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for WX_SPOT @ 4687.0
+2026-03-01 02:15:58,647 - __main__ - INFO - Order sent: WX_SPOT BUY 10@4687.0
+2026-03-01 02:15:58,951 - __main__ - INFO - Order sent: WX_SPOT BUY 11@4684.0
+2026-03-01 02:16:00,389 - __main__ - INFO - Order sent: LON_FLY BUY 4@3925.0
+2026-03-01 02:16:00,788 - __main__ - INFO - Order sent: LON_FLY SELL 9@3933.0
+2026-03-01 02:16:00,790 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for WX_SPOT @ 4687.0
+2026-03-01 02:16:02,834 - __main__ - INFO - Order sent: WX_SPOT BUY 10@4687.0
+2026-03-01 02:16:03,527 - __main__ - INFO - Order sent: WX_SPOT BUY 11@4685.0
+2026-03-01 02:16:04,671 - __main__ - INFO - Order sent: LON_FLY BUY 4@3799.0
+2026-03-01 02:16:05,108 - __main__ - INFO - Order sent: LON_FLY SELL 9@3807.0
+2026-03-01 02:16:05,113 - risk.pnl_monitor - INFO - Trade: BUY 6.0x TIDE_SPOT @ 3009.00, realized P&L: +0.00, position: +6
+2026-03-01 02:16:05,114 - __main__ - INFO - ✅ TRADE: BUY 6.0x TIDE_SPOT @ 3009 (buyer: Brestttt, seller: )
+2026-03-01 02:16:06,140 - __main__ - INFO - Order sent: TIDE_SPOT BUY 8@3021.0
+2026-03-01 02:16:06,655 - __main__ - INFO - Order sent: TIDE_SPOT SELL 5@3029.0
+2026-03-01 02:16:08,395 - __main__ - INFO - Order sent: LON_FLY BUY 4@3774.0
+2026-03-01 02:16:08,933 - __main__ - INFO - Order sent: LON_FLY SELL 9@3782.0
+2026-03-01 02:16:08,935 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for TIDE_SPOT @ 3014.0
+2026-03-01 02:16:10,504 - __main__ - INFO - Order sent: TIDE_SPOT BUY 10@3014.0
+2026-03-01 02:16:10,846 - __main__ - INFO - Order sent: TIDE_SPOT BUY 8@3020.0
+2026-03-01 02:16:11,194 - __main__ - INFO - Order sent: TIDE_SPOT SELL 5@3028.0
+2026-03-01 02:16:11,195 - risk.pnl_monitor - INFO - Trade: BUY 3x TIDE_SPOT @ 3009.00, realized P&L: +0.00, position: +9
+2026-03-01 02:16:11,195 - __main__ - INFO - ✅ TRADE: BUY 3x TIDE_SPOT @ 3009.0 (buyer: Brestttt, seller: )
+2026-03-01 02:16:11,196 - __main__ - INFO - 📊 LON_FLY: 3649.0/3911.0 (received 20 orderbooks)
+2026-03-01 02:16:12,422 - __main__ - INFO - Order sent: LON_FLY BUY 4@3637.0
+2026-03-01 02:16:12,951 - __main__ - INFO - Order sent: LON_FLY SELL 9@3645.0
+2026-03-01 02:16:12,952 - __main__ - INFO - 📊 TIDE_SPOT: 3010.0/3014.0 (received 20 orderbooks)
+2026-03-01 02:16:14,523 - __main__ - INFO - Order sent: TIDE_SPOT BUY 8@3022.0
+2026-03-01 02:16:14,754 - __main__ - INFO - Order sent: TIDE_SPOT SELL 5@3029.0
+2026-03-01 02:16:15,547 - __main__ - INFO - Order sent: LON_FLY BUY 4@3775.0
+2026-03-01 02:16:15,926 - __main__ - INFO - Order sent: LON_FLY SELL 9@3783.0
+2026-03-01 02:16:15,938 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8922.0
+2026-03-01 02:16:16,775 - __main__ - INFO - Order sent: LON_ETF SELL 10@8922.0
+2026-03-01 02:16:17,003 - __main__ - INFO - Order sent: LON_ETF SELL 10@8924.0
+2026-03-01 02:16:17,828 - __main__ - INFO - Order sent: LON_FLY BUY 4@3792.0
+2026-03-01 02:16:18,207 - __main__ - INFO - Order sent: LON_FLY SELL 9@3800.0
+2026-03-01 02:16:18,212 - __main__ - INFO - 📊 WX_SPOT: 4685.0/4687.0 (received 20 orderbooks)
+2026-03-01 02:16:18,214 - __main__ - INFO - 📊 LHR_INDEX: 164.0/165.0 (received 20 orderbooks)
+2026-03-01 02:16:18,218 - risk.pnl_monitor - INFO - Trade: BUY 2.0x LHR_COUNT @ 1231.00, realized P&L: +0.00, position: +2
+2026-03-01 02:16:18,218 - __main__ - INFO - ✅ TRADE: BUY 2.0x LHR_COUNT @ 1231.0 (buyer: Brestttt, seller: )
+2026-03-01 02:16:18,220 - __main__ - INFO - 📊 LON_ETF: 8922.0/8925.0 (received 20 orderbooks)
+2026-03-01 02:16:18,220 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8922.0
+2026-03-01 02:16:19,494 - __main__ - INFO - Order sent: LON_ETF SELL 10@8922.0
+2026-03-01 02:16:19,835 - __main__ - INFO - Order sent: LON_ETF SELL 10@8926.0
+2026-03-01 02:16:19,842 - __main__ - INFO - 📊 TIDE_SWING: 503.0/508.0 (received 20 orderbooks)
+2026-03-01 02:16:19,843 - __main__ - INFO - 📊 WX_SUM: 3323.0/3324.0 (received 20 orderbooks)
+2026-03-01 02:16:19,846 - __main__ - INFO - 📊 LON_FLY: 3647.0/3909.0 (received 30 orderbooks)
+2026-03-01 02:16:20,683 - __main__ - INFO - Order sent: LON_FLY BUY 4@3772.0
+2026-03-01 02:16:20,982 - __main__ - INFO - Order sent: LON_FLY SELL 9@3780.0
+2026-03-01 02:16:20,984 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_FLY @ 3774.00, realized P&L: +0.00, position: +3
+2026-03-01 02:16:20,984 - __main__ - INFO - ✅ TRADE: BUY 3x LON_FLY @ 3774.0 (buyer: Brestttt, seller: )
+2026-03-01 02:16:20,988 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8922.0
+2026-03-01 02:16:21,981 - __main__ - INFO - Order sent: LON_ETF SELL 10@8922.0
+2026-03-01 02:16:22,386 - __main__ - INFO - Order sent: LON_ETF SELL 10@8924.0
+2026-03-01 02:16:22,389 - risk.pnl_monitor - INFO - Trade: SELL 6x LON_ETF @ 8925.00, realized P&L: +0.00, position: -6
+2026-03-01 02:16:22,390 - __main__ - INFO - ✅ TRADE: SELL 6x LON_ETF @ 8925.0 (buyer: , seller: Brestttt)
+2026-03-01 02:16:22,391 - __main__ - INFO - 📊 TIDE_SPOT: 3010.0/3014.0 (received 30 orderbooks)
+2026-03-01 02:16:22,392 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for WX_SPOT @ 4686.0
+2026-03-01 02:16:23,967 - __main__ - INFO - Order sent: WX_SPOT BUY 10@4686.0
+2026-03-01 02:16:24,428 - __main__ - INFO - Order sent: WX_SPOT BUY 11@4684.0
+2026-03-01 02:16:24,434 - risk.pnl_monitor - INFO - Trade: SELL 3x LON_FLY @ 3782.00, realized P&L: +24.00, position: +0
+2026-03-01 02:16:24,434 - __main__ - INFO - ✅ TRADE: SELL 3x LON_FLY @ 3782.0 (buyer: , seller: Brestttt)
+2026-03-01 02:16:25,698 - __main__ - INFO - Order sent: LON_FLY BUY 4@3792.0
+2026-03-01 02:16:26,305 - __main__ - INFO - Order sent: LON_FLY SELL 9@3800.0
+2026-03-01 02:16:26,307 - __main__ - INFO - 📊 LHR_COUNT: 1231.0/1238.0 (received 20 orderbooks)
+2026-03-01 02:16:26,314 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 3774.00, realized P&L: +0.00, position: +1
+2026-03-01 02:16:26,315 - __main__ - INFO - ✅ TRADE: BUY 1x LON_FLY @ 3774.0 (buyer: Brestttt, seller: )
+2026-03-01 02:16:26,318 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8922.0
+2026-03-01 02:16:28,155 - __main__ - INFO - Order sent: LON_ETF SELL 10@8922.0
+2026-03-01 02:16:28,676 - __main__ - INFO - Order sent: LON_ETF BUY 3@8919.0
+2026-03-01 02:16:28,997 - __main__ - INFO - Order sent: LON_ETF SELL 10@8927.0
+2026-03-01 02:16:29,002 - risk.pnl_monitor - INFO - Trade: SELL 1.0x LON_ETF @ 8922.00, realized P&L: +0.00, position: -7
+2026-03-01 02:16:29,002 - __main__ - INFO - ✅ TRADE: SELL 1.0x LON_ETF @ 8922.0 (buyer: , seller: Brestttt)
+2026-03-01 02:16:29,003 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 3782.00, realized P&L: +8.00, position: +0
+2026-03-01 02:16:29,003 - __main__ - INFO - ✅ TRADE: SELL 1x LON_FLY @ 3782.0 (buyer: , seller: Brestttt)
+2026-03-01 02:16:30,806 - __main__ - INFO - Order sent: LON_FLY BUY 4@3774.0
+2026-03-01 02:16:31,456 - __main__ - INFO - Order sent: LON_FLY SELL 9@3782.0
+2026-03-01 02:16:33,032 - __main__ - INFO - Order sent: LON_ETF BUY 3@8916.0
+2026-03-01 02:16:33,473 - __main__ - INFO - Order sent: LON_ETF SELL 10@8924.0
+2026-03-01 02:17:24,593 - risk.pnl_monitor - INFO - Trade: SELL 5x LON_ETF @ 8918.00, realized P&L: +0.00, position: -12
+2026-03-01 02:17:24,596 - __main__ - INFO - ✅ TRADE: SELL 5x LON_ETF @ 8918.0 (buyer: , seller: Brestttt)
+2026-03-01 02:17:24,598 - risk.pnl_monitor - INFO - Trade: SELL 2.0x LON_ETF @ 8918.00, realized P&L: +0.00, position: -14
+2026-03-01 02:17:24,598 - __main__ - INFO - ✅ TRADE: SELL 2.0x LON_ETF @ 8918.0 (buyer: , seller: Brestttt)
+2026-03-01 02:17:24,599 - risk.pnl_monitor - INFO - Trade: BUY 2x WX_SPOT @ 4685.00, realized P&L: +0.00, position: +2
+2026-03-01 02:17:24,599 - __main__ - INFO - ✅ TRADE: BUY 2x WX_SPOT @ 4685.0 (buyer: Brestttt, seller: )
+2026-03-01 02:17:24,599 - risk.pnl_monitor - INFO - Trade: BUY 2x LHR_COUNT @ 1231.00, realized P&L: +0.00, position: +4
+2026-03-01 02:17:24,599 - __main__ - INFO - ✅ TRADE: BUY 2x LHR_COUNT @ 1231.0 (buyer: Brestttt, seller: )
+2026-03-01 02:17:24,599 - risk.pnl_monitor - INFO - Trade: BUY 5x WX_SPOT @ 4685.00, realized P&L: +0.00, position: +7
+2026-03-01 02:17:24,599 - __main__ - INFO - ✅ TRADE: BUY 5x WX_SPOT @ 4685.0 (buyer: Brestttt, seller: )
+2026-03-01 02:17:24,599 - risk.pnl_monitor - INFO - Trade: BUY 3.0x LHR_COUNT @ 1231.00, realized P&L: +0.00, position: +7
+2026-03-01 02:17:24,599 - __main__ - INFO - ✅ TRADE: BUY 3.0x LHR_COUNT @ 1231.0 (buyer: Brestttt, seller: )
+2026-03-01 02:17:24,599 - risk.pnl_monitor - INFO - Trade: BUY 2x WX_SPOT @ 4685.00, realized P&L: +0.00, position: +9
+2026-03-01 02:17:24,599 - __main__ - INFO - ✅ TRADE: BUY 2x WX_SPOT @ 4685.0 (buyer: Brestttt, seller: )
+2026-03-01 02:17:25,982 - __main__ - INFO - Order sent: LHR_COUNT BUY 6@1230.0
+2026-03-01 02:17:26,347 - __main__ - INFO - Order sent: LHR_COUNT SELL 7@1237.0

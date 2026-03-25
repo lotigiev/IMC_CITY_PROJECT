@@ -1,0 +1,60 @@
+2026-02-28 23:57:19,672 - __main__ - INFO - ============================================================
+2026-02-28 23:57:19,672 - __main__ - INFO - IMCity Trading Bot
+2026-02-28 23:57:19,672 - __main__ - INFO - ============================================================
+2026-02-28 23:57:19,672 - __main__ - INFO - Bot:      hybrid
+2026-02-28 23:57:19,672 - __main__ - INFO - Exchange: challenge
+2026-02-28 23:57:19,672 - __main__ - INFO - URL:      http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/
+2026-02-28 23:57:19,672 - __main__ - INFO - User:     Brestttt
+2026-02-28 23:57:19,672 - __main__ - INFO - Width:    10.0
+2026-02-28 23:57:19,672 - __main__ - INFO - Volume:   2
+2026-02-28 23:57:19,672 - __main__ - INFO - ============================================================
+2026-02-28 23:57:19,673 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-02-28 23:57:19,673 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-02-28 23:57:19,673 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-02-28 23:57:19,673 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-02-28 23:57:19,673 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-02-28 23:57:19,673 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-02-28 23:57:19,673 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-02-28 23:57:19,673 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-02-28 23:57:19,673 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-02-28 23:57:19,673 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True
+2026-02-28 23:57:19,676 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-02-28 23:57:19,868 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-02-28 23:57:19,869 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-02-28 23:57:19,869 - bots.hybrid_bot - INFO - Strategies: ['MarketMaker', 'ETFArbitrage']
+2026-02-28 23:57:20,114 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #1 !!! (Monthly limit: 150)
+2026-02-28 23:57:21,104 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #2 !!! (Monthly limit: 150)
+2026-02-28 23:57:21,279 - data.flights - ERROR - Failed to fetch flight data: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 23:57:21,280 - data.flights - ERROR - Failed to estimate LHR_COUNT: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 23:57:21,282 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #3 !!! (Monthly limit: 150)
+2026-02-28 23:57:21,419 - data.flights - ERROR - Failed to fetch flight data: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 23:57:21,419 - data.flights - ERROR - Failed to estimate LHR_INDEX: 429 Client Error: Too Many Requests for url: https://aerodatabox.p.rapidapi.com/flights/airports/iata/LHR?offsetMinutes=0&durationMinutes=720&direction=Both
+2026-02-28 23:57:21,422 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #4 !!! (Monthly limit: 150)
+2026-02-28 23:57:28,677 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_ETF @ 8526.00, realized P&L: +0.00, position: +3
+2026-02-28 23:57:28,680 - risk.pnl_monitor - INFO - Trade: BUY 4x LON_FLY @ 3129.00, realized P&L: +0.00, position: +4
+2026-02-28 23:57:28,686 - risk.pnl_monitor - INFO - Trade: BUY 2x LHR_COUNT @ 1575.00, realized P&L: +0.00, position: +2
+2026-02-28 23:57:33,970 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SPOT @ 2910.00, realized P&L: +0.00, position: +1
+2026-02-28 23:57:33,971 - risk.pnl_monitor - INFO - Trade: BUY 2x LHR_INDEX @ 136.00, realized P&L: +0.00, position: +2
+2026-02-28 23:57:39,074 - bots.hybrid_bot - ERROR - Manual trade poll failed: Trade.__init__() got an unexpected keyword argument 'sessionId'
+2026-02-28 23:57:50,036 - risk.pnl_monitor - INFO - Trade: SELL 4x TIDE_SWING @ 501.00, realized P&L: +0.00, position: -4
+2026-02-28 23:57:50,038 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_FLY @ 3127.00, realized P&L: +0.00, position: +7
+2026-02-28 23:57:50,043 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SPOT @ 2910.00, realized P&L: +0.00, position: +2
+2026-02-28 23:57:50,196 - risk.pnl_monitor - INFO - Trade: BUY 2x LHR_INDEX @ 141.00, realized P&L: +0.00, position: +4
+2026-02-28 23:57:50,349 - risk.pnl_monitor - INFO - Trade: SELL 4x TIDE_SWING @ 511.00, realized P&L: +0.00, position: -8
+2026-02-28 23:57:50,362 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_ETF @ 8696.00, realized P&L: +0.00, position: +6
+2026-02-28 23:57:57,058 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SWING @ 501.00, realized P&L: +0.00, position: -11
+2026-02-28 23:58:00,770 - bots.hybrid_bot - ERROR - Manual trade poll failed: Trade.__init__() got an unexpected keyword argument 'sessionId'
+2026-02-28 23:58:13,193 - risk.pnl_monitor - INFO - Trade: SELL 2x TIDE_SPOT @ 3028.00, realized P&L: +236.00, position: +0
+2026-02-28 23:58:13,198 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 8515.00, realized P&L: +0.00, position: +7
+2026-02-28 23:58:13,198 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_ETF @ 8534.00, realized P&L: +0.00, position: +9
+2026-02-28 23:58:13,206 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_FLY @ 3138.00, realized P&L: +0.00, position: +10
+2026-02-28 23:58:13,213 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SWING @ 501.00, realized P&L: +0.00, position: -14
+2026-02-28 23:58:18,626 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 3118.00, realized P&L: +0.00, position: +11
+2026-02-28 23:58:18,626 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_FLY @ 3123.00, realized P&L: +0.00, position: +13
+2026-02-28 23:58:18,634 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SPOT @ 2985.00, realized P&L: +0.00, position: +1
+2026-02-28 23:58:18,690 - bots.hybrid_bot - ERROR - Manual trade poll failed: Trade.__init__() got an unexpected keyword argument 'sessionId'
+2026-02-28 23:58:35,772 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_FLY @ 3123.00, realized P&L: +0.00, position: +16
+2026-02-28 23:58:35,774 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SPOT @ 2974.00, realized P&L: +0.00, position: +2
+2026-02-28 23:58:46,793 - bots.hybrid_bot - ERROR - Manual trade poll failed: Trade.__init__() got an unexpected keyword argument 'sessionId'
+2026-03-01 00:00:01,132 - bots.hybrid_bot - INFO - Stopping...
+2026-03-01 00:00:02,516 - execution.order_manager - INFO - Shutting down order manager

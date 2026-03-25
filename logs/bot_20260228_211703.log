@@ -1,0 +1,20 @@
+2026-02-28 21:17:04,420 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-02-28 21:17:04,420 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-02-28 21:17:04,421 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-02-28 21:17:04,421 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-02-28 21:17:04,421 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-02-28 21:17:04,421 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-02-28 21:17:04,421 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-02-28 21:17:04,421 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-02-28 21:17:04,421 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-02-28 21:17:04,565 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:17:04,565 - risk.position_limits - INFO - POSITION SUMMARY
+2026-02-28 21:17:04,565 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:17:04,566 - risk.position_limits - INFO - ------------------------------------------------------------
+2026-02-28 21:17:04,566 - risk.position_limits - INFO - Total Exposure: 0 / 500
+2026-02-28 21:17:04,566 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:17:04,566 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:17:04,566 - risk.pnl_monitor - INFO - P&L SUMMARY
+2026-02-28 21:17:04,566 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:17:04,566 - risk.pnl_monitor - INFO - Total Realized P&L: +0.00
+2026-02-28 21:17:04,566 - risk.pnl_monitor - INFO - ============================================================

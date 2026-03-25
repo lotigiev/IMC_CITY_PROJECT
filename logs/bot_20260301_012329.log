@@ -1,0 +1,39 @@
+2026-03-01 01:23:29,898 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:23:29,898 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 01:23:29,898 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:23:29,898 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 01:23:29,898 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 01:23:29,898 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 01:23:29,898 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 01:23:29,898 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 01:23:29,898 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 01:23:29,898 - __main__ - INFO - 🔄 Syncing from exchange...
+2026-03-01 01:23:30,019 - __main__ - INFO - Exchange positions: {'LHR_COUNT': 35, 'LON_FLY': 28, 'LHR_INDEX': 13, 'TIDE_SWING': -2, 'WX_SUM': 43, 'TIDE_SPOT': -28, 'WX_SPOT': -37, 'LON_ETF': -5}
+2026-03-01 01:23:30,019 - __main__ - INFO - ✅ Positions synced
+2026-03-01 01:23:30,065 - __main__ - INFO - Exchange P&L: {'user': 'Brestttt', 'totalProfit': -303024.0, 'details': [{'product': 'LHR_COUNT', 'profit': -8076.0}, {'product': 'LON_FLY', 'profit': -302439.0}, {'product': 'LHR_INDEX', 'profit': 4810.0}, {'product': 'TIDE_SWING', 'profit': 2847.0}, {'product': 'WX_SUM', 'profit': -101.0}, {'product': 'TIDE_SPOT', 'profit': -13743.0}, {'product': 'WX_SPOT', 'profit': 7579.0}, {'product': 'LON_ETF', 'profit': 6099.0}]}
+2026-03-01 01:23:30,065 - __main__ - INFO - Realized P&L from exchange: 0
+2026-03-01 01:23:33,067 - __main__ - INFO - Loaded 78923 recent trades
+2026-03-01 01:24:19,938 - __main__ - INFO - Order sent: WX_SUM BUY 1@3613.0
+2026-03-01 01:24:20,148 - __main__ - INFO - Order sent: WX_SUM SELL 4@3638.0
+2026-03-01 01:24:20,596 - __main__ - INFO - Order sent: LON_ETF BUY 3@10991.0
+2026-03-01 01:24:20,646 - __main__ - INFO - Order sent: LON_ETF SELL 2@11013.0
+2026-03-01 01:24:20,867 - __main__ - INFO - Order sent: TIDE_SPOT BUY 3@2477.0
+2026-03-01 01:24:21,120 - __main__ - INFO - Order sent: TIDE_SPOT SELL 2@2501.0
+2026-03-01 01:24:21,124 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3332.00, realized P&L: +0.00, position: +1
+2026-03-01 01:24:21,124 - __main__ - INFO - ✅ TRADE: BUY 1x WX_SUM @ 3332
+2026-03-01 01:24:21,316 - __main__ - INFO - Order sent: LHR_COUNT BUY 1@2879.0
+2026-03-01 01:24:21,373 - __main__ - INFO - Order sent: LHR_COUNT SELL 4@2903.0
+2026-03-01 01:24:21,377 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SPOT @ 2477.00, realized P&L: +0.00, position: +1
+2026-03-01 01:24:21,377 - __main__ - INFO - ✅ TRADE: BUY 1x TIDE_SPOT @ 2477.0
+2026-03-01 01:24:21,698 - __main__ - INFO - Order sent: LON_FLY BUY 2@5495.0
+2026-03-01 01:24:21,840 - __main__ - INFO - Order sent: LON_FLY SELL 3@5519.0
+2026-03-01 01:24:21,845 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_FLY @ 3941.00, realized P&L: +0.00, position: +2
+2026-03-01 01:24:21,846 - __main__ - INFO - ✅ TRADE: BUY 2x LON_FLY @ 3941
+2026-03-01 01:24:23,604 - __main__ - INFO - Order sent: WX_SUM BUY 1@3621.0
+2026-03-01 01:24:23,740 - __main__ - INFO - Order sent: WX_SUM SELL 4@3646.0
+2026-03-01 01:24:23,979 - __main__ - INFO - Order sent: LON_FLY BUY 2@5700.0
+2026-03-01 01:24:24,028 - __main__ - INFO - Order sent: LON_FLY SELL 3@5724.0
+2026-03-01 01:24:24,031 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3332.00, realized P&L: +0.00, position: +2
+2026-03-01 01:24:24,035 - __main__ - INFO - ✅ TRADE: BUY 1x WX_SUM @ 3332
+2026-03-01 01:24:24,036 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_FLY @ 4761.00, realized P&L: +0.00, position: +4
+2026-03-01 01:24:24,036 - __main__ - INFO - ✅ TRADE: BUY 2x LON_FLY @ 4761

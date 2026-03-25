@@ -1,0 +1,604 @@
+2026-03-01 01:01:45,680 - __main__ - INFO - ============================================================
+2026-03-01 01:01:45,681 - __main__ - INFO - IMCity Trading Bot
+2026-03-01 01:01:45,681 - __main__ - INFO - ============================================================
+2026-03-01 01:01:45,681 - __main__ - INFO - Bot:      hybrid
+2026-03-01 01:01:45,681 - __main__ - INFO - Exchange: test
+2026-03-01 01:01:45,681 - __main__ - INFO - URL:      http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/
+2026-03-01 01:01:45,681 - __main__ - INFO - User:     Brestttt
+2026-03-01 01:01:45,681 - __main__ - INFO - Width:    5.0
+2026-03-01 01:01:45,681 - __main__ - INFO - Volume:   5
+2026-03-01 01:01:45,681 - __main__ - INFO - ============================================================
+2026-03-01 01:01:45,681 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:01:45,681 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 01:01:45,681 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:01:45,681 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 01:01:45,681 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 01:01:45,681 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 01:01:45,681 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 01:01:45,681 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 01:01:45,681 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 01:01:45,681 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True, dry_run=False
+2026-03-01 01:01:45,681 - utils.alerting - WARNING - ⚠️ Alerting disabled (webhook URL is placeholder)
+2026-03-01 01:01:45,681 - utils.alerting - WARNING - ⚠️ Alerting disabled (no webhook URL configured)
+2026-03-01 01:01:45,681 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-03-01 01:01:45,746 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-03-01 01:01:45,746 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-03-01 01:01:45,747 - bots.hybrid_bot - INFO - Strategies: ['SettlementFlattener', 'MarketMaker', 'ETFArbitrageV2']
+2026-03-01 01:01:46,288 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #1 !!! (Monthly limit: 150)
+2026-03-01 01:01:47,192 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 01:01:47,193 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 01:01:47,193 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 01:01:47,194 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 01:01:47,194 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 01:01:47,194 - data.flights - ERROR - Failed to estimate LHR_INDEX: Rate limit safety block active
+2026-03-01 01:01:47,194 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 01:01:47,194 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 01:01:47,195 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 01:01:47,195 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 01:01:47,216 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 01:01:47,216 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 01:01:47,216 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 01:01:47,217 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 01:01:47,217 - pricing.fair_value - WARNING - Missing ETF fair value for LON_FLY
+2026-03-01 01:01:54,497 - risk.pnl_monitor - INFO - Trade: BUY 2x WX_SUM @ 3276.00, realized P&L: +0.00, position: +2
+2026-03-01 01:01:54,498 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3277.00, realized P&L: +0.00, position: +3
+2026-03-01 01:02:01,473 - strategies.etf_arbitrage_v2 - INFO - 🎯 ETF ARB: SELL ETF @ 8884.00, BUY components @ 8836.00, edge=48.00
+2026-03-01 01:02:15,614 - risk.pnl_monitor - INFO - Trade: BUY 2x TIDE_SPOT @ 3200.00, realized P&L: +0.00, position: +2
+2026-03-01 01:02:15,616 - strategies.etf_arbitrage_v2 - WARNING - ⚠️ ETF ARB PARTIAL FILL DETECTED - Unwinding filled legs
+2026-03-01 01:02:15,616 - strategies.etf_arbitrage_v2 - WARNING - Unwinding TIDE_SPOT: SELL 2x @ 2526.00
+2026-03-01 01:02:15,749 - risk.pnl_monitor - INFO - Trade: SELL 3x WX_SPOT @ 4415.00, realized P&L: +0.00, position: -3
+2026-03-01 01:02:15,749 - risk.pnl_monitor - INFO - Trade: BUY 5x WX_SPOT @ 4423.00, realized P&L: -24.00, position: +2
+2026-03-01 01:02:15,750 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SPOT @ 2896.00, realized P&L: -608.00, position: -1
+2026-03-01 01:02:15,750 - risk.pnl_monitor - INFO - Trade: BUY 5x TIDE_SPOT @ 2884.00, realized P&L: +12.00, position: +4
+2026-03-01 01:02:15,750 - risk.pnl_monitor - INFO - Trade: BUY 3x LHR_COUNT @ 3149.00, realized P&L: +0.00, position: +3
+2026-03-01 01:02:15,750 - risk.pnl_monitor - INFO - Trade: BUY 4x LON_FLY @ 6449.00, realized P&L: +0.00, position: +4
+2026-03-01 01:02:15,750 - risk.pnl_monitor - CRITICAL - 🚨 STOP-LOSS TRIGGERED! 🚨 Total P&L: -18542.50 <= -10000.00 (Realized: -620.00, Unrealized: -17922.50)
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: SELL 3x WX_SPOT @ 4414.00, realized P&L: -18.00, position: -1
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: BUY 4x LHR_COUNT @ 4598.00, realized P&L: +0.00, position: +7
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 1844.00, realized P&L: +0.00, position: +8
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: BUY 4x LON_FLY @ 6449.00, realized P&L: +0.00, position: +8
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: BUY 3x WX_SUM @ 3276.00, realized P&L: +0.00, position: +6
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 6433.00, realized P&L: +0.00, position: +9
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_FLY @ 6433.00, realized P&L: +0.00, position: +12
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: BUY 4x LON_FLY @ 6433.00, realized P&L: +0.00, position: +16
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: SELL 3x WX_SPOT @ 4414.00, realized P&L: +0.00, position: -4
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: SELL 4x WX_SPOT @ 4414.00, realized P&L: +0.00, position: -8
+2026-03-01 01:02:15,751 - risk.pnl_monitor - INFO - Trade: BUY 4x LHR_COUNT @ 1307.00, realized P&L: +0.00, position: +12
+2026-03-01 01:02:15,753 - risk.pnl_monitor - INFO - Trade: BUY 3x WX_SPOT @ 2715.00, realized P&L: +5097.00, position: -5
+2026-03-01 01:02:15,755 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SPOT @ 2715.00, realized P&L: +1699.00, position: -4
+2026-03-01 01:02:15,755 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SPOT @ 2715.00, realized P&L: +1699.00, position: -3
+2026-03-01 01:02:15,755 - risk.pnl_monitor - INFO - Trade: SELL 4x WX_SPOT @ 4346.00, realized P&L: +0.00, position: -7
+2026-03-01 01:02:15,756 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SPOT @ 2682.00, realized P&L: -606.00, position: +1
+2026-03-01 01:02:15,756 - risk.pnl_monitor - INFO - Trade: BUY 3x WX_SUM @ 3396.00, realized P&L: +0.00, position: +9
+2026-03-01 01:02:15,756 - risk.pnl_monitor - INFO - Trade: SELL 5x TIDE_SWING @ 564.00, realized P&L: +0.00, position: -5
+2026-03-01 01:02:15,756 - risk.pnl_monitor - INFO - Trade: BUY 4x LHR_INDEX @ 230.00, realized P&L: +0.00, position: +4
+2026-03-01 01:02:15,756 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_FLY @ 4835.00, realized P&L: -3212.00, position: +14
+2026-03-01 01:02:15,756 - risk.pnl_monitor - INFO - Trade: SELL 2x LHR_COUNT @ 4729.00, realized P&L: +3639.50, position: +10
+2026-03-01 01:02:15,757 - risk.pnl_monitor - INFO - Trade: SELL 5x TIDE_SPOT @ 2556.00, realized P&L: -328.00, position: -4
+2026-03-01 01:02:15,757 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_ETF @ 9952.00, realized P&L: +0.00, position: -2
+2026-03-01 01:02:15,757 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_ETF @ 9953.00, realized P&L: +0.00, position: -4
+2026-03-01 01:02:15,757 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9955.00, realized P&L: +0.00, position: -5
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: SELL 3x WX_SPOT @ 4343.00, realized P&L: +0.00, position: -10
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: SELL 2x WX_SPOT @ 4344.00, realized P&L: +0.00, position: -12
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: BUY 3x WX_SUM @ 3347.00, realized P&L: +0.00, position: +12
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: BUY 2x WX_SUM @ 3347.00, realized P&L: +0.00, position: +14
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: BUY 3x LHR_INDEX @ 194.00, realized P&L: +0.00, position: +7
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_INDEX @ 194.00, realized P&L: +0.00, position: +8
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_INDEX @ 191.00, realized P&L: +0.00, position: +9
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 3655.00, realized P&L: -2786.00, position: +13
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_FLY @ 3655.00, realized P&L: -5572.00, position: +11
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_FLY @ 3655.00, realized P&L: -5572.00, position: +9
+2026-03-01 01:02:15,758 - risk.pnl_monitor - INFO - Trade: BUY 5x LON_FLY @ 2808.00, realized P&L: +0.00, position: +14
+2026-03-01 01:02:15,759 - risk.pnl_monitor - INFO - Trade: BUY 3x LHR_COUNT @ 3055.00, realized P&L: +0.00, position: +13
+2026-03-01 01:02:15,759 - risk.pnl_monitor - INFO - Trade: BUY 2x LHR_COUNT @ 3055.00, realized P&L: +0.00, position: +15
+2026-03-01 01:02:15,759 - risk.pnl_monitor - INFO - Trade: SELL 5x TIDE_SPOT @ 2558.00, realized P&L: +0.00, position: -9
+2026-03-01 01:02:15,759 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SWING @ 476.00, realized P&L: +0.00, position: -8
+2026-03-01 01:02:15,760 - risk.pnl_monitor - INFO - Trade: SELL 2x TIDE_SWING @ 476.00, realized P&L: +0.00, position: -10
+2026-03-01 01:02:15,760 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_ETF @ 9969.00, realized P&L: +0.00, position: -7
+2026-03-01 01:02:15,760 - risk.pnl_monitor - INFO - Trade: SELL 3x LON_ETF @ 9969.00, realized P&L: +0.00, position: -10
+2026-03-01 01:02:15,761 - risk.pnl_monitor - INFO - Trade: BUY 2x LHR_INDEX @ 194.00, realized P&L: +0.00, position: +11
+2026-03-01 01:02:15,761 - risk.pnl_monitor - INFO - Trade: BUY 3x LHR_INDEX @ 194.00, realized P&L: +0.00, position: +14
+2026-03-01 01:02:15,761 - risk.pnl_monitor - INFO - Trade: SELL 2x WX_SPOT @ 4350.00, realized P&L: +0.00, position: -14
+2026-03-01 01:02:15,761 - risk.pnl_monitor - INFO - Trade: SELL 3x WX_SPOT @ 4352.00, realized P&L: +0.00, position: -17
+2026-03-01 01:02:15,761 - risk.pnl_monitor - INFO - Trade: SELL 2x TIDE_SPOT @ 2555.00, realized P&L: +0.00, position: -11
+2026-03-01 01:02:15,761 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SPOT @ 2556.00, realized P&L: +0.00, position: -14
+2026-03-01 01:02:15,761 - risk.pnl_monitor - INFO - Trade: BUY 3x WX_SUM @ 3346.00, realized P&L: +0.00, position: +17
+2026-03-01 01:02:15,762 - risk.pnl_monitor - INFO - Trade: BUY 2x WX_SUM @ 3346.00, realized P&L: +0.00, position: +19
+2026-03-01 01:02:15,762 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SWING @ 480.00, realized P&L: +0.00, position: -13
+2026-03-01 01:02:15,762 - risk.pnl_monitor - INFO - Trade: SELL 2x TIDE_SWING @ 481.00, realized P&L: +0.00, position: -15
+2026-03-01 01:02:15,762 - risk.pnl_monitor - INFO - Trade: BUY 3.0x LHR_COUNT @ 3057.00, realized P&L: +0.00, position: +18
+2026-03-01 01:02:15,762 - risk.pnl_monitor - INFO - Trade: BUY 2.0x LHR_COUNT @ 3057.00, realized P&L: +0.00, position: +20
+2026-03-01 01:02:15,763 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_ETF @ 9817.00, realized P&L: +0.00, position: -12
+2026-03-01 01:02:15,763 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9817.00, realized P&L: +0.00, position: -13
+2026-03-01 01:02:15,763 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9817.00, realized P&L: +0.00, position: -14
+2026-03-01 01:02:15,763 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9817.00, realized P&L: +0.00, position: -15
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_ETF @ 9807.00, realized P&L: +318.00, position: -12
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_ETF @ 9732.00, realized P&L: +362.00, position: -10
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 2x LHR_COUNT @ 3456.00, realized P&L: +0.00, position: +22
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 4x LHR_COUNT @ 3467.00, realized P&L: +1765.36, position: +18
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 5x LHR_COUNT @ 3463.00, realized P&L: +2186.70, position: +13
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 3456.00, realized P&L: +0.00, position: +14
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 5x LON_FLY @ 6128.00, realized P&L: +4922.50, position: +9
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 3456.00, realized P&L: +0.00, position: +15
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 5883.00, realized P&L: +739.50, position: +8
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_FLY @ 5883.00, realized P&L: +1479.00, position: +6
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_FLY @ 5883.00, realized P&L: +1479.00, position: +4
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 5872.00, realized P&L: +0.00, position: +5
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_FLY @ 5872.00, realized P&L: +0.00, position: +7
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_FLY @ 5872.00, realized P&L: +0.00, position: +9
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_FLY @ 5886.00, realized P&L: +675.56, position: +7
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 5x LON_ETF @ 10076.00, realized P&L: +0.00, position: -15
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 5886.00, realized P&L: +337.78, position: +6
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_FLY @ 5886.00, realized P&L: +675.56, position: +4
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 9802.00, realized P&L: +165.33, position: -14
+2026-03-01 01:02:15,764 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_ETF @ 9314.00, realized P&L: +1306.67, position: -12
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9835.00, realized P&L: +0.00, position: -13
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_ETF @ 9835.00, realized P&L: +0.00, position: -15
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 1.0x LON_FLY @ 5640.00, realized P&L: +0.00, position: +5
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_FLY @ 5636.00, realized P&L: +0.00, position: +8
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 1.0x LON_FLY @ 5630.00, realized P&L: +0.00, position: +9
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: SELL 1x LHR_COUNT @ 3467.00, realized P&L: +383.96, position: +14
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_FLY @ 6117.00, realized P&L: +0.00, position: +11
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_FLY @ 5633.00, realized P&L: +0.00, position: +14
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: SELL 4x WX_SPOT @ 4428.00, realized P&L: +0.00, position: -21
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: SELL 1x WX_SPOT @ 4430.00, realized P&L: +0.00, position: -22
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SPOT @ 1762.00, realized P&L: +0.00, position: -17
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: SELL 2x TIDE_SPOT @ 1893.00, realized P&L: +0.00, position: -19
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: SELL 5x LHR_COUNT @ 3464.00, realized P&L: +1904.81, position: +9
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 5x WX_SUM @ 3343.00, realized P&L: +0.00, position: +24
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SWING @ 221.00, realized P&L: +285.80, position: -14
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 2x TIDE_SWING @ 211.00, realized P&L: +591.60, position: -12
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 2x TIDE_SWING @ 211.00, realized P&L: +591.60, position: -10
+2026-03-01 01:02:15,765 - risk.pnl_monitor - INFO - Trade: BUY 2.0x LON_ETF @ 9824.00, realized P&L: +233.73, position: -13
+2026-03-01 01:02:15,766 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 9824.00, realized P&L: +116.87, position: -12
+2026-03-01 01:02:15,766 - risk.pnl_monitor - INFO - Trade: BUY 2.0x LON_ETF @ 9824.00, realized P&L: +233.73, position: -10
+2026-03-01 01:02:15,766 - risk.pnl_monitor - INFO - Trade: SELL 5x LHR_INDEX @ 76.00, realized P&L: -640.36, position: +9
+2026-03-01 01:02:15,766 - risk.pnl_monitor - INFO - Trade: BUY 4x LON_FLY @ 6039.00, realized P&L: +0.00, position: +18
+2026-03-01 01:02:15,766 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9565.00, realized P&L: +0.00, position: -11
+2026-03-01 01:02:15,766 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9565.00, realized P&L: +0.00, position: -12
+2026-03-01 01:02:15,766 - risk.pnl_monitor - INFO - Trade: BUY 2x LHR_COUNT @ 2687.00, realized P&L: +0.00, position: +11
+2026-03-01 01:02:15,766 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_ETF @ 9554.00, realized P&L: +648.44, position: -10
+2026-03-01 01:02:15,766 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9565.00, realized P&L: +0.00, position: -11
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9565.00, realized P&L: +0.00, position: -12
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_ETF @ 9565.00, realized P&L: +0.00, position: -13
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: BUY 3x LON_ETF @ 9554.00, realized P&L: +755.82, position: -10
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 6039.00, realized P&L: +0.00, position: +19
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: SELL 5x LON_FLY @ 9688.00, realized P&L: +19571.87, position: +14
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: BUY 3x LHR_COUNT @ 2687.00, realized P&L: +0.00, position: +14
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: SELL 5x WX_SPOT @ 4419.00, realized P&L: +0.00, position: -27
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: SELL 4x TIDE_SPOT @ 2481.00, realized P&L: +0.00, position: -23
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: SELL 1x TIDE_SPOT @ 2483.00, realized P&L: +0.00, position: -24
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3346.00, realized P&L: +0.00, position: +25
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: BUY 4x WX_SUM @ 3346.00, realized P&L: +0.00, position: +29
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: SELL 5x LHR_COUNT @ 2719.00, realized P&L: -1112.98, position: +9
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SWING @ 218.00, realized P&L: +288.80, position: -9
+2026-03-01 01:02:15,767 - risk.pnl_monitor - INFO - Trade: BUY 4x TIDE_SWING @ 218.00, realized P&L: +1155.20, position: -5
+2026-03-01 01:02:15,768 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_ETF @ 10092.00, realized P&L: +0.00, position: -12
+2026-03-01 01:02:15,769 - risk.pnl_monitor - INFO - Trade: SELL 3x LON_ETF @ 10092.00, realized P&L: +0.00, position: -15
+2026-03-01 01:02:15,769 - risk.pnl_monitor - INFO - Trade: BUY 5x LON_ETF @ 10082.00, realized P&L: -903.53, position: -10
+2026-03-01 01:02:15,769 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SPOT @ 1714.00, realized P&L: +0.00, position: -27
+2026-03-01 01:02:15,769 - risk.pnl_monitor - INFO - Trade: SELL 2x TIDE_SPOT @ 1714.00, realized P&L: +0.00, position: -29
+2026-03-01 01:02:15,769 - risk.pnl_monitor - INFO - Trade: BUY 5x WX_SUM @ 3354.00, realized P&L: +0.00, position: +34
+2026-03-01 01:02:15,770 - risk.pnl_monitor - INFO - Trade: BUY 5x TIDE_SWING @ 520.00, realized P&L: -66.00, position: +0
+2026-03-01 01:02:15,770 - risk.pnl_monitor - INFO - Trade: BUY 5x LON_FLY @ 62128.00, realized P&L: +0.00, position: +19
+2026-03-01 01:02:15,770 - risk.pnl_monitor - INFO - Trade: BUY 1.0x LHR_INDEX @ 263.00, realized P&L: +0.00, position: +10
+2026-03-01 01:02:15,770 - risk.pnl_monitor - INFO - Trade: BUY 5x LHR_COUNT @ 9964.00, realized P&L: +0.00, position: +14
+2026-03-01 01:02:15,771 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SPOT @ 2826.00, realized P&L: -555.62, position: -28
+2026-03-01 01:02:25,909 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:25,965 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:26,014 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:26,062 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:26,113 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:26,235 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:26,284 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:26,339 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:39,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:39,749 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:39,868 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:39,934 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:40,066 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:40,124 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:40,176 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:40,232 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,823 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,825 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,825 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,825 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,826 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,826 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,849 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,850 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,850 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,850 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,851 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,851 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,852 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,852 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,852 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,852 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,852 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,852 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,852 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,852 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,852 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,853 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,854 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,854 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,854 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,854 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,854 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,854 - risk.pnl_monitor - INFO - Trade: BUY 2.0x LHR_COUNT @ 1196.00, realized P&L: +0.00, position: +16
+2026-03-01 01:02:48,865 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:48,865 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:49,067 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:49,305 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:49,502 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:49,665 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:50,551 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:50,666 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:51,077 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:51,268 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:52,124 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:52,270 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:52,469 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:53,699 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:53,857 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:53,869 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:53,905 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:54,024 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:54,073 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:54,120 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:54,241 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:54,289 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:54,336 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:54,895 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:55,082 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:55,279 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:55,482 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:55,683 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:56,329 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:56,480 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:56,480 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:56,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,075 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,351 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,695 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,695 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,695 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:02:57,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,650 - bots.hybrid_bot - INFO - Stopping...
+2026-03-01 01:04:08,655 - risk.pnl_monitor - INFO - Trade: SELL 6x WX_SUM @ 3628.00, realized P&L: +1734.18, position: +28
+2026-03-01 01:04:08,672 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,680 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,680 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,680 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,681 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,681 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,683 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,687 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,687 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,687 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,687 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,688 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,688 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,688 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,688 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,688 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,688 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,688 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,688 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,689 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,689 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,689 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,689 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,689 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,689 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,689 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,689 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,690 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,690 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,690 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,690 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,690 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,690 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,690 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,690 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,691 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,692 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,692 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,692 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,692 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,692 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,692 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,692 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,692 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,692 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,693 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,694 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,694 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,694 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,694 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,694 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,694 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,694 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,694 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,694 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,695 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,695 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,695 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,695 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,695 - risk.pnl_monitor - INFO - Trade: BUY 2.0x LHR_COUNT @ 1196.00, realized P&L: +0.00, position: +18
+2026-03-01 01:04:08,695 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,695 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,696 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,696 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,696 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,696 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,696 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,696 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,696 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,696 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,697 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,697 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,697 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,697 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,697 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,697 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,697 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,697 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,697 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,698 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,698 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,698 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,698 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,698 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,698 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,699 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,699 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,699 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,699 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,700 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,701 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,702 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,703 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,704 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,705 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,706 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,707 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,708 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,709 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,710 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,711 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,712 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,713 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,714 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,715 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,719 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,720 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,720 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,720 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,720 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,720 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,720 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,720 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,721 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,721 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,721 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,721 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,721 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,722 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,722 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,722 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:08,757 - bots.hybrid_bot - WARNING - Stop-loss triggered - not trading
+2026-03-01 01:04:09,008 - execution.order_manager - INFO - Shutting down order manager
+2026-03-01 01:04:09,010 - bots.hybrid_bot - INFO - Bot shutdown complete

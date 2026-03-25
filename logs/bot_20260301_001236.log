@@ -1,0 +1,13 @@
+2026-03-01 00:12:36,215 - FlightTester - INFO - Step 1: Attempting to fetch flight data...
+2026-03-01 00:12:36,246 - FlightTester - INFO - ✅ SUCCESS: Received data (LHR_COUNT: 4793)
+2026-03-01 00:12:36,246 - FlightTester - INFO - Execution time: 0.03 seconds
+2026-03-01 00:12:36,246 - FlightTester - INFO - ℹ️ Note: Data was returned from CACHE.
+2026-03-01 00:12:36,247 - FlightTester - INFO - --------------------------------------------------
+2026-03-01 00:12:36,247 - FlightTester - INFO - Step 2: Immediate re-fetch (Testing Cache logic)...
+2026-03-01 00:12:36,247 - FlightTester - INFO - ✅ CACHE VERIFIED: Second fetch took 0.0002s (Instant hit).
+2026-03-01 00:12:36,247 - FlightTester - INFO - --------------------------------------------------
+2026-03-01 00:12:36,247 - FlightTester - INFO - Step 3: Accessing the Index calculation...
+2026-03-01 00:12:36,253 - FlightTester - INFO - ✅ SUCCESS: LHR_INDEX calculated as 1245.70
+2026-03-01 00:12:36,253 - FlightTester - INFO - ==================================================
+2026-03-01 00:12:36,254 - FlightTester - INFO - VERIFICATION COMPLETE: Your bot has active Heathrow data access.
+2026-03-01 00:12:36,254 - FlightTester - INFO - ==================================================

@@ -1,0 +1,22 @@
+2026-03-01 02:03:20,337 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 02:03:20,337 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 02:03:20,337 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 02:03:20,337 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 02:03:20,338 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 02:03:20,338 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 02:03:20,338 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 02:03:20,338 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 02:03:59,143 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for WX_SPOT @ 4686.0
+2026-03-01 02:03:59,845 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8941.0
+2026-03-01 02:04:01,227 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for TIDE_SPOT @ 3017.0
+2026-03-01 02:04:01,586 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LHR_COUNT @ 1229.0
+2026-03-01 02:04:03,002 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for WX_SUM @ 3313.0
+2026-03-01 02:04:04,283 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LHR_COUNT @ 1229.0
+2026-03-01 02:04:06,544 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LHR_COUNT @ 1228.0
+2026-03-01 02:04:08,124 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for WX_SPOT @ 4688.0
+2026-03-01 02:04:11,546 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for WX_SUM @ 3313.0
+2026-03-01 02:04:16,623 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for WX_SUM @ 3313.0
+2026-03-01 02:04:19,151 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for WX_SUM @ 3314.0
+2026-03-01 02:04:20,296 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for WX_SPOT @ 4689.0
+2026-03-01 02:04:23,602 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LHR_COUNT @ 1229.0
+2026-03-01 02:15:16,807 - strategies.market_maker - INFO - 🎯 SNIPER SELL: Taking liquidity for LON_ETF @ 8939.0

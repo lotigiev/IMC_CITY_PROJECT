@@ -1,0 +1,82 @@
+2026-02-28 22:09:44,712 - __main__ - INFO - ============================================================
+2026-02-28 22:09:44,712 - __main__ - INFO - IMCity Trading Bot
+2026-02-28 22:09:44,712 - __main__ - INFO - ============================================================
+2026-02-28 22:09:44,712 - __main__ - INFO - Bot:      hybrid
+2026-02-28 22:09:44,712 - __main__ - INFO - Exchange: challenge
+2026-02-28 22:09:44,712 - __main__ - INFO - URL:      http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/
+2026-02-28 22:09:44,712 - __main__ - INFO - User:     Brestttt
+2026-02-28 22:09:44,712 - __main__ - INFO - Width:    10.0
+2026-02-28 22:09:44,712 - __main__ - INFO - Volume:   2
+2026-02-28 22:09:44,712 - __main__ - INFO - ============================================================
+2026-02-28 22:09:44,714 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-02-28 22:09:44,715 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-02-28 22:09:44,715 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-02-28 22:09:44,715 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-02-28 22:09:44,715 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-02-28 22:09:44,715 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-02-28 22:09:44,715 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-02-28 22:09:44,715 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-02-28 22:09:44,716 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-02-28 22:09:44,716 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True
+2026-02-28 22:09:44,716 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-02-28 22:09:44,833 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-02-28 22:09:44,834 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-02-28 22:09:44,834 - bots.hybrid_bot - INFO - Strategies: ['MarketMaker', 'ETFArbitrage']
+2026-02-28 22:09:55,034 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:09:55,083 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SWING: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:09:55,134 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:09:55,181 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SUM: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:09:55,221 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_COUNT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:09:55,262 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_INDEX: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:09:55,299 - bots.hybrid_bot - ERROR - Manual poll failed for LON_ETF: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:09:55,346 - bots.hybrid_bot - ERROR - Manual poll failed for LON_FLY: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:05,419 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:05,478 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SWING: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:05,543 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:05,593 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SUM: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:05,634 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_COUNT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:05,677 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_INDEX: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:05,716 - bots.hybrid_bot - ERROR - Manual poll failed for LON_ETF: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:05,763 - bots.hybrid_bot - ERROR - Manual poll failed for LON_FLY: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:15,853 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:15,906 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SWING: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:15,951 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:16,007 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SUM: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:16,058 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_COUNT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:16,098 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_INDEX: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:16,138 - bots.hybrid_bot - ERROR - Manual poll failed for LON_ETF: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:16,194 - bots.hybrid_bot - ERROR - Manual poll failed for LON_FLY: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:26,259 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:26,302 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SWING: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:26,346 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:26,392 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SUM: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:26,434 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_COUNT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:26,491 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_INDEX: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:26,540 - bots.hybrid_bot - ERROR - Manual poll failed for LON_ETF: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:26,581 - bots.hybrid_bot - ERROR - Manual poll failed for LON_FLY: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:36,646 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:36,694 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SWING: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:36,739 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:36,785 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SUM: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:36,830 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_COUNT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:36,901 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_INDEX: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:36,958 - bots.hybrid_bot - ERROR - Manual poll failed for LON_ETF: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:36,999 - bots.hybrid_bot - ERROR - Manual poll failed for LON_FLY: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:47,059 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:47,101 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SWING: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:47,144 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:47,186 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SUM: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:47,228 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_COUNT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:47,275 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_INDEX: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:47,319 - bots.hybrid_bot - ERROR - Manual poll failed for LON_ETF: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:47,360 - bots.hybrid_bot - ERROR - Manual poll failed for LON_FLY: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:57,459 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:57,504 - bots.hybrid_bot - ERROR - Manual poll failed for TIDE_SWING: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:57,545 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SPOT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:57,587 - bots.hybrid_bot - ERROR - Manual poll failed for WX_SUM: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:57,629 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_COUNT: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:57,670 - bots.hybrid_bot - ERROR - Manual poll failed for LHR_INDEX: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:57,709 - bots.hybrid_bot - ERROR - Manual poll failed for LON_ETF: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:57,788 - bots.hybrid_bot - ERROR - Manual poll failed for LON_FLY: 'OrderBook' object has no attribute 'buyOrders'
+2026-02-28 22:10:58,461 - bots.hybrid_bot - INFO - Stopping...
+2026-02-28 22:11:03,504 - execution.order_manager - INFO - Shutting down order manager

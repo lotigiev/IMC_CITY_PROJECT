@@ -1,0 +1,15 @@
+2026-03-01 01:55:00,623 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:55:00,623 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 01:55:00,623 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:55:00,623 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 01:55:00,623 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 01:55:00,623 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 01:55:00,623 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 01:55:00,623 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 01:55:00,623 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -100000
+2026-03-01 01:55:00,623 - __main__ - INFO - 🔄 Syncing from exchange...
+2026-03-01 01:55:00,751 - __main__ - INFO - Exchange positions: {'LHR_COUNT': 50, 'LON_FLY': 50, 'LHR_INDEX': 51, 'TIDE_SWING': -14, 'WX_SUM': 50, 'TIDE_SPOT': -59, 'WX_SPOT': -82, 'LON_ETF': 51}
+2026-03-01 01:55:00,751 - __main__ - INFO - ✅ Positions synced
+2026-03-01 01:55:01,061 - __main__ - INFO - Exchange P&L: {'user': 'Brestttt', 'totalProfit': -50792.0, 'details': [{'product': 'LHR_COUNT', 'profit': -13348.0}, {'product': 'LON_FLY', 'profit': 75710.0}, {'product': 'LHR_INDEX', 'profit': -18320.0}, {'product': 'TIDE_SWING', 'profit': 5057.0}, {'product': 'WX_SUM', 'profit': 1393.0}, {'product': 'TIDE_SPOT', 'profit': -49985.0}, {'product': 'WX_SPOT', 'profit': -23087.0}, {'product': 'LON_ETF', 'profit': -28212.0}]}
+2026-03-01 01:55:01,062 - __main__ - INFO - Realized P&L from exchange: 0
+2026-03-01 01:55:02,417 - __main__ - INFO - Loaded 28529 recent trades

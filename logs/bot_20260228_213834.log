@@ -1,0 +1,52 @@
+2026-02-28 21:38:35,365 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-02-28 21:38:35,365 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-02-28 21:38:35,365 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-02-28 21:38:35,365 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-02-28 21:38:35,365 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-02-28 21:38:35,365 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-02-28 21:38:35,365 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-02-28 21:38:35,365 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-02-28 21:38:35,365 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-02-28 21:38:35,368 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True
+2026-02-28 21:38:35,521 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:38:35,521 - risk.position_limits - INFO - POSITION SUMMARY
+2026-02-28 21:38:35,521 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:38:35,521 - risk.position_limits - INFO - LHR_COUNT   :    +15  (limit:   -100 to   +100)
+2026-02-28 21:38:35,521 - risk.position_limits - INFO - LHR_INDEX   :    +21  (limit:   -100 to   +100)
+2026-02-28 21:38:35,521 - risk.position_limits - INFO - LON_ETF     :     +9  (limit:   -100 to   +100)
+2026-02-28 21:38:35,522 - risk.position_limits - INFO - LON_FLY     :    -33  (limit:   -100 to   +100)
+2026-02-28 21:38:35,522 - risk.position_limits - INFO - TIDE_SPOT   :    -51  (limit:   -100 to   +100)
+2026-02-28 21:38:35,522 - risk.position_limits - INFO - TIDE_SWING  :     -5  (limit:   -100 to   +100)
+2026-02-28 21:38:35,522 - risk.position_limits - INFO - WX_SPOT     :    -82  (limit:   -100 to   +100)
+2026-02-28 21:38:35,522 - risk.position_limits - INFO - WX_SUM      :    +30  (limit:   -100 to   +100)
+2026-02-28 21:38:35,522 - risk.position_limits - INFO - ------------------------------------------------------------
+2026-02-28 21:38:35,522 - risk.position_limits - INFO - Total Exposure: 246 / 500
+2026-02-28 21:38:35,522 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:38:35,522 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:38:35,522 - risk.pnl_monitor - INFO - P&L SUMMARY
+2026-02-28 21:38:35,522 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:38:35,522 - risk.pnl_monitor - INFO - Total Realized P&L: +0.00
+2026-02-28 21:38:35,522 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:38:35,522 - utils.metrics - INFO - ============================================================
+2026-02-28 21:38:35,522 - utils.metrics - INFO - PERFORMANCE SUMMARY
+2026-02-28 21:38:35,523 - utils.metrics - INFO - ============================================================
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Total P&L:      +0.00
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Realized P&L:   +0.00
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Unrealized P&L: +0.00
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Max Drawdown:   0.00
+2026-02-28 21:38:35,523 - utils.metrics - INFO - 
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Total Trades:   0
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Win Rate:       0.0%
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Avg Win:        +0.00
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Avg Loss:       +0.00
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Profit Factor:  0.00
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Sharpe Ratio:   0.00
+2026-02-28 21:38:35,523 - utils.metrics - INFO - 
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Orders Sent:    0
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Orders Filled:  0
+2026-02-28 21:38:35,523 - utils.metrics - INFO - Fill Rate:      0.0%
+2026-02-28 21:38:35,523 - utils.metrics - INFO - 
+2026-02-28 21:38:35,524 - utils.metrics - INFO - Elapsed Time:   0.00 hours
+2026-02-28 21:38:35,524 - utils.metrics - INFO - P&L per Hour:   +0.00
+2026-02-28 21:38:35,524 - utils.metrics - INFO - ============================================================
+2026-02-28 21:39:16,310 - execution.order_manager - INFO - Shutting down order manager

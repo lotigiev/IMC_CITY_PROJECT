@@ -1,0 +1,57 @@
+2026-02-28 21:17:56,200 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-02-28 21:17:56,200 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-02-28 21:17:56,200 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-02-28 21:17:56,200 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-02-28 21:17:56,201 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-02-28 21:17:56,201 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-02-28 21:17:56,201 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-02-28 21:17:56,201 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-02-28 21:17:56,201 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-02-28 21:17:56,201 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True
+2026-02-28 21:17:56,370 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:17:56,370 - risk.position_limits - INFO - POSITION SUMMARY
+2026-02-28 21:17:56,370 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:17:56,370 - risk.position_limits - INFO - ------------------------------------------------------------
+2026-02-28 21:17:56,370 - risk.position_limits - INFO - Total Exposure: 0 / 500
+2026-02-28 21:17:56,370 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:17:56,370 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:17:56,370 - risk.pnl_monitor - INFO - P&L SUMMARY
+2026-02-28 21:17:56,370 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:17:56,370 - risk.pnl_monitor - INFO - Total Realized P&L: +0.00
+2026-02-28 21:17:56,371 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:17:56,371 - utils.metrics - INFO - ============================================================
+2026-02-28 21:17:56,371 - utils.metrics - INFO - PERFORMANCE SUMMARY
+2026-02-28 21:17:56,371 - utils.metrics - INFO - ============================================================
+2026-02-28 21:17:56,371 - utils.metrics - INFO - Total P&L:      +0.00
+2026-02-28 21:17:56,371 - utils.metrics - INFO - Realized P&L:   +0.00
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Unrealized P&L: +0.00
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Max Drawdown:   0.00
+2026-02-28 21:17:56,372 - utils.metrics - INFO - 
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Total Trades:   0
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Win Rate:       0.0%
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Avg Win:        +0.00
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Avg Loss:       +0.00
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Profit Factor:  0.00
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Sharpe Ratio:   0.00
+2026-02-28 21:17:56,372 - utils.metrics - INFO - 
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Orders Sent:    0
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Orders Filled:  0
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Fill Rate:      0.0%
+2026-02-28 21:17:56,372 - utils.metrics - INFO - 
+2026-02-28 21:17:56,372 - utils.metrics - INFO - Elapsed Time:   0.00 hours
+2026-02-28 21:17:56,372 - utils.metrics - INFO - P&L per Hour:   +0.00
+2026-02-28 21:17:56,372 - utils.metrics - INFO - ============================================================
+2026-02-28 21:18:56,979 - execution.smart_cancel - INFO - Cancelling order 7f5f07f7: LHR_COUNT SELL 5@4737.0 - Fair value moved 5.0 ticks from order price
+2026-02-28 21:18:57,043 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 21:18:57,899 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:18:57,902 - risk.position_limits - INFO - POSITION SUMMARY
+2026-02-28 21:18:57,903 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:18:57,903 - risk.position_limits - INFO - LHR_COUNT   :     +5  (limit:   -100 to   +100)
+2026-02-28 21:18:57,903 - risk.position_limits - INFO - ------------------------------------------------------------
+2026-02-28 21:18:57,903 - risk.position_limits - INFO - Total Exposure: 5 / 500
+2026-02-28 21:18:57,903 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:18:57,904 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:18:57,904 - risk.pnl_monitor - INFO - P&L SUMMARY
+2026-02-28 21:18:57,904 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:18:57,904 - risk.pnl_monitor - INFO - Total Realized P&L: +0.00
+2026-02-28 21:19:25,856 - execution.order_manager - INFO - Shutting down order manager

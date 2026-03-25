@@ -1,0 +1,155 @@
+2026-02-28 21:21:24,602 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-02-28 21:21:24,602 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-02-28 21:21:24,602 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-02-28 21:21:24,602 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-02-28 21:21:24,602 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-02-28 21:21:24,602 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-02-28 21:21:24,602 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-02-28 21:21:24,602 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-02-28 21:21:24,602 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-02-28 21:21:24,603 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True
+2026-02-28 21:21:24,768 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:21:24,769 - risk.position_limits - INFO - POSITION SUMMARY
+2026-02-28 21:21:24,769 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:21:24,769 - risk.position_limits - INFO - LHR_COUNT   :     +9  (limit:   -100 to   +100)
+2026-02-28 21:21:24,769 - risk.position_limits - INFO - LON_FLY     :     -5  (limit:   -100 to   +100)
+2026-02-28 21:21:24,769 - risk.position_limits - INFO - ------------------------------------------------------------
+2026-02-28 21:21:24,769 - risk.position_limits - INFO - Total Exposure: 14 / 500
+2026-02-28 21:21:24,769 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:21:24,769 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:21:24,769 - risk.pnl_monitor - INFO - P&L SUMMARY
+2026-02-28 21:21:24,769 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:21:24,769 - risk.pnl_monitor - INFO - Total Realized P&L: +0.00
+2026-02-28 21:21:24,769 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:21:24,769 - utils.metrics - INFO - ============================================================
+2026-02-28 21:21:24,769 - utils.metrics - INFO - PERFORMANCE SUMMARY
+2026-02-28 21:21:24,769 - utils.metrics - INFO - ============================================================
+2026-02-28 21:21:24,769 - utils.metrics - INFO - Total P&L:      +0.00
+2026-02-28 21:21:24,769 - utils.metrics - INFO - Realized P&L:   +0.00
+2026-02-28 21:21:24,769 - utils.metrics - INFO - Unrealized P&L: +0.00
+2026-02-28 21:21:24,769 - utils.metrics - INFO - Max Drawdown:   0.00
+2026-02-28 21:21:24,769 - utils.metrics - INFO - 
+2026-02-28 21:21:24,769 - utils.metrics - INFO - Total Trades:   0
+2026-02-28 21:21:24,770 - utils.metrics - INFO - Win Rate:       0.0%
+2026-02-28 21:21:24,770 - utils.metrics - INFO - Avg Win:        +0.00
+2026-02-28 21:21:24,770 - utils.metrics - INFO - Avg Loss:       +0.00
+2026-02-28 21:21:24,770 - utils.metrics - INFO - Profit Factor:  0.00
+2026-02-28 21:21:24,770 - utils.metrics - INFO - Sharpe Ratio:   0.00
+2026-02-28 21:21:24,771 - utils.metrics - INFO - 
+2026-02-28 21:21:24,771 - utils.metrics - INFO - Orders Sent:    0
+2026-02-28 21:21:24,771 - utils.metrics - INFO - Orders Filled:  0
+2026-02-28 21:21:24,771 - utils.metrics - INFO - Fill Rate:      0.0%
+2026-02-28 21:21:24,771 - utils.metrics - INFO - 
+2026-02-28 21:21:24,771 - utils.metrics - INFO - Elapsed Time:   0.00 hours
+2026-02-28 21:21:24,771 - utils.metrics - INFO - P&L per Hour:   +0.00
+2026-02-28 21:21:24,771 - utils.metrics - INFO - ============================================================
+2026-02-28 21:21:27,067 - execution.smart_cancel - INFO - Cancelling order d8aa3555: LHR_COUNT SELL 5@4737.0 - Fair value moved 28.0 ticks from order price
+2026-02-28 21:21:27,113 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 21:21:28,482 - execution.smart_cancel - INFO - Cancelling order 7d4525ad: LON_FLY SELL 4@4837.0 - Fair value moved 2135.8 ticks from order price
+2026-02-28 21:21:28,483 - execution.smart_cancel - INFO - Cancelling order 90b59759: LON_FLY BUY 5@4826.0 - Fair value moved 2124.8 ticks from order price
+2026-02-28 21:21:28,585 - execution.smart_cancel - INFO - Cancelled 2 stale orders
+2026-02-28 21:21:30,276 - execution.smart_cancel - INFO - Cancelling order 5d97881a: WX_SUM SELL 5@3897.0 - Fair value moved 5.5 ticks from order price
+2026-02-28 21:21:30,317 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 21:21:32,309 - execution.smart_cancel - INFO - Cancelling order e0f0bb8d: LON_FLY BUY 5@2696.0 - Fair value moved 5.2 ticks from order price
+2026-02-28 21:21:32,361 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 21:21:34,372 - execution.smart_cancel - INFO - Cancelling order b484e194: TIDE_SPOT BUY 5@843.0 - Fair value moved 5.0 ticks from order price
+2026-02-28 21:21:34,417 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 21:21:36,369 - execution.smart_cancel - INFO - Cancelling order f9657542: LHR_COUNT SELL 5@4770.0 - Fair value moved 5.0 ticks from order price
+2026-02-28 21:21:36,419 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 21:21:38,386 - execution.smart_cancel - INFO - Cancelling order f055f76f: LHR_INDEX SELL 5@1459.0 - Fair value moved 5.1 ticks from order price
+2026-02-28 21:21:38,458 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 21:21:40,394 - execution.smart_cancel - INFO - Cancelling order e02f532c: TIDE_SWING SELL 4@535.0 - Fair value moved 5.5 ticks from order price
+2026-02-28 21:21:40,394 - execution.smart_cancel - INFO - Cancelling order 41c14dbb: TIDE_SWING BUY 5@524.0 - Fair value moved 5.5 ticks from order price
+2026-02-28 21:21:40,478 - execution.smart_cancel - INFO - Cancelled 2 stale orders
+2026-02-28 21:21:42,396 - execution.smart_cancel - INFO - Cancelling order 48c161dc: WX_SPOT BUY 5@2732.0 - Fair value moved 5.6 ticks from order price
+2026-02-28 21:21:42,444 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 21:21:48,564 - execution.smart_cancel - INFO - Cancelling order 572418e2: LHR_COUNT SELL 5@2545.0 - Fair value moved 2220.0 ticks from order price
+2026-02-28 21:21:48,565 - execution.smart_cancel - INFO - Cancelling order 750a42ef: TIDE_SPOT SELL 5@3250.0 - Fair value moved 2402.0 ticks from order price
+2026-02-28 21:21:48,565 - execution.smart_cancel - INFO - Cancelling order f3dbf73a: LON_ETF BUY 3@9335.0 - Fair value moved 984.4 ticks from order price
+2026-02-28 21:21:48,565 - execution.smart_cancel - INFO - Cancelling order da5c8050: LON_ETF BUY 5@8345.0 - Fair value moved 5.6 ticks from order price
+2026-02-28 21:21:48,800 - execution.smart_cancel - INFO - Cancelled 4 stale orders
+2026-02-28 21:21:52,470 - risk.pnl_monitor - INFO - Trade: BUY 5x WX_SUM @ 3298.00, realized P&L: +0.00, position: +5
+2026-02-28 21:21:52,470 - utils.metrics - INFO - Trade recorded: BUY 5x WX_SUM @ 3298.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,475 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 4585.00, realized P&L: +0.00, position: -1
+2026-02-28 21:21:52,475 - utils.metrics - INFO - Trade recorded: SELL 1x LON_FLY @ 4585.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,475 - risk.pnl_monitor - INFO - Trade: SELL 3x LON_FLY @ 4540.00, realized P&L: +0.00, position: -4
+2026-02-28 21:21:52,475 - utils.metrics - INFO - Trade recorded: SELL 3x LON_FLY @ 4540.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,481 - risk.pnl_monitor - INFO - Trade: SELL 1x TIDE_SPOT @ 3250.00, realized P&L: +0.00, position: -1
+2026-02-28 21:21:52,481 - utils.metrics - INFO - Trade recorded: SELL 1x TIDE_SPOT @ 3250.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,482 - risk.pnl_monitor - INFO - Trade: SELL 3x TIDE_SPOT @ 3219.00, realized P&L: +0.00, position: -4
+2026-02-28 21:21:52,482 - utils.metrics - INFO - Trade recorded: SELL 3x TIDE_SPOT @ 3219.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,482 - risk.pnl_monitor - INFO - Trade: SELL 1x TIDE_SPOT @ 3200.00, realized P&L: +0.00, position: -5
+2026-02-28 21:21:52,482 - utils.metrics - INFO - Trade recorded: SELL 1x TIDE_SPOT @ 3200.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,483 - risk.pnl_monitor - INFO - Trade: BUY 4x LHR_COUNT @ 2505.00, realized P&L: +0.00, position: +4
+2026-02-28 21:21:52,483 - utils.metrics - INFO - Trade recorded: BUY 4x LHR_COUNT @ 2505.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,500 - risk.pnl_monitor - INFO - Trade: BUY 5x LHR_INDEX @ 173.00, realized P&L: +0.00, position: +5
+2026-02-28 21:21:52,500 - utils.metrics - INFO - Trade recorded: BUY 5x LHR_INDEX @ 173.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,515 - risk.pnl_monitor - INFO - Trade: SELL 1x TIDE_SWING @ 539.00, realized P&L: +0.00, position: -1
+2026-02-28 21:21:52,515 - utils.metrics - INFO - Trade recorded: SELL 1x TIDE_SWING @ 539.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,521 - risk.pnl_monitor - INFO - Trade: SELL 5x WX_SPOT @ 4501.00, realized P&L: +0.00, position: -5
+2026-02-28 21:21:52,522 - utils.metrics - INFO - Trade recorded: SELL 5x WX_SPOT @ 4501.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,525 - risk.pnl_monitor - INFO - Trade: SELL 5x LON_ETF @ 9315.00, realized P&L: +0.00, position: -5
+2026-02-28 21:21:52,525 - utils.metrics - INFO - Trade recorded: SELL 5x LON_ETF @ 9315.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,526 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_ETF @ 9335.00, realized P&L: -40.00, position: -3
+2026-02-28 21:21:52,526 - utils.metrics - INFO - Trade recorded: BUY 2x LON_ETF @ 9335.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:52,528 - risk.pnl_monitor - INFO - Trade: SELL 5x WX_SPOT @ 4546.00, realized P&L: +0.00, position: -10
+2026-02-28 21:21:52,528 - utils.metrics - INFO - Trade recorded: SELL 5x WX_SPOT @ 4546.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:21:53,793 - execution.smart_cancel - INFO - Cancelling order 1057ad3d: LHR_COUNT SELL 5@2545.0 - Fair value moved 2220.0 ticks from order price
+2026-02-28 21:21:53,793 - execution.smart_cancel - INFO - Cancelling order 909062a3: WX_SPOT SELL 5@4501.0 - Fair value moved 1763.4 ticks from order price
+2026-02-28 21:21:53,793 - execution.smart_cancel - INFO - Cancelling order 9cf2b6b2: TIDE_SPOT SELL 5@3250.0 - Fair value moved 2402.0 ticks from order price
+2026-02-28 21:21:53,793 - execution.smart_cancel - INFO - Cancelling order d65c076d: LON_ETF BUY 5@9335.0 - Fair value moved 984.4 ticks from order price
+2026-02-28 21:21:53,983 - execution.smart_cancel - INFO - Cancelled 4 stale orders
+2026-02-28 21:21:59,191 - execution.smart_cancel - INFO - Cancelling order fdfba960: LHR_COUNT SELL 5@2545.0 - Fair value moved 2220.0 ticks from order price
+2026-02-28 21:21:59,191 - execution.smart_cancel - INFO - Cancelling order f930d066: WX_SPOT SELL 5@4501.0 - Fair value moved 1763.4 ticks from order price
+2026-02-28 21:21:59,191 - execution.smart_cancel - INFO - Cancelling order 874d6d57: TIDE_SPOT SELL 5@3250.0 - Fair value moved 2402.0 ticks from order price
+2026-02-28 21:21:59,192 - execution.smart_cancel - INFO - Cancelling order 670c10af: LON_ETF BUY 5@9335.0 - Fair value moved 984.4 ticks from order price
+2026-02-28 21:21:59,192 - execution.smart_cancel - INFO - Cancelling order 50cc4fd6: LON_FLY BUY 5@2696.0 - Fair value moved 5.2 ticks from order price
+2026-02-28 21:21:59,442 - execution.smart_cancel - INFO - Cancelled 5 stale orders
+2026-02-28 21:22:03,289 - execution.smart_cancel - INFO - Cancelling order 3b40e314: TIDE_SPOT SELL 5@3250.0 - Fair value moved 2402.0 ticks from order price
+2026-02-28 21:22:03,289 - execution.smart_cancel - INFO - Cancelling order 8455eebc: LHR_COUNT SELL 5@2545.0 - Fair value moved 2220.0 ticks from order price
+2026-02-28 21:22:03,289 - execution.smart_cancel - INFO - Cancelling order 5effb968: WX_SPOT SELL 5@4501.0 - Fair value moved 1763.4 ticks from order price
+2026-02-28 21:22:03,289 - execution.smart_cancel - INFO - Cancelling order 4d3dbc39: LON_ETF BUY 5@9335.0 - Fair value moved 984.4 ticks from order price
+2026-02-28 21:22:03,484 - execution.smart_cancel - INFO - Cancelled 4 stale orders
+2026-02-28 21:22:05,347 - execution.smart_cancel - INFO - Cancelling order fade49b2: LHR_COUNT SELL 5@4770.0 - Fair value moved 5.0 ticks from order price
+2026-02-28 21:22:05,413 - execution.smart_cancel - INFO - Cancelled 1 stale orders
+2026-02-28 21:22:11,319 - execution.smart_cancel - INFO - Cancelling order ff47ec78: TIDE_SPOT SELL 5@3240.0 - Fair value moved 2392.0 ticks from order price
+2026-02-28 21:22:11,319 - execution.smart_cancel - INFO - Cancelling order 97d80114: LON_ETF BUY 5@9335.0 - Fair value moved 984.4 ticks from order price
+2026-02-28 21:22:11,320 - execution.smart_cancel - INFO - Cancelling order 93f7a8ee: LHR_COUNT SELL 5@2441.0 - Fair value moved 2324.0 ticks from order price
+2026-02-28 21:22:11,320 - execution.smart_cancel - INFO - Cancelling order af2e0dc1: WX_SPOT SELL 5@4501.0 - Fair value moved 1763.4 ticks from order price
+2026-02-28 21:22:11,320 - execution.smart_cancel - INFO - Cancelling order ce1df2d8: TIDE_SPOT BUY 5@843.0 - Fair value moved 5.0 ticks from order price
+2026-02-28 21:22:11,555 - execution.smart_cancel - INFO - Cancelled 5 stale orders
+2026-02-28 21:22:17,333 - execution.smart_cancel - INFO - Cancelling order 7a86cb04: LHR_COUNT SELL 5@2441.0 - Fair value moved 2324.0 ticks from order price
+2026-02-28 21:22:17,333 - execution.smart_cancel - INFO - Cancelling order 7b102ccf: TIDE_SPOT SELL 5@3240.0 - Fair value moved 2392.0 ticks from order price
+2026-02-28 21:22:17,334 - execution.smart_cancel - INFO - Cancelling order a1437934: LON_ETF BUY 5@9335.0 - Fair value moved 984.4 ticks from order price
+2026-02-28 21:22:17,334 - execution.smart_cancel - INFO - Cancelling order b5c62d75: WX_SPOT BUY 5@2733.0 - Fair value moved 4.6 ticks from order price
+2026-02-28 21:22:17,510 - execution.smart_cancel - INFO - Cancelled 4 stale orders
+2026-02-28 21:22:21,346 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 4475.00, realized P&L: +0.00, position: -5
+2026-02-28 21:22:21,346 - utils.metrics - INFO - Trade recorded: SELL 1x LON_FLY @ 4475.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:22:21,346 - risk.pnl_monitor - INFO - Trade: SELL 1x LON_FLY @ 4475.00, realized P&L: +0.00, position: -6
+2026-02-28 21:22:21,346 - utils.metrics - INFO - Trade recorded: SELL 1x LON_FLY @ 4475.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:22:21,347 - risk.pnl_monitor - INFO - Trade: SELL 2x LON_FLY @ 4442.00, realized P&L: +0.00, position: -8
+2026-02-28 21:22:21,347 - utils.metrics - INFO - Trade recorded: SELL 2x LON_FLY @ 4442.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:22:21,351 - risk.pnl_monitor - INFO - Trade: BUY 4x LHR_COUNT @ 2353.00, realized P&L: +0.00, position: +8
+2026-02-28 21:22:21,352 - utils.metrics - INFO - Trade recorded: BUY 4x LHR_COUNT @ 2353.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:22:21,352 - risk.pnl_monitor - INFO - Trade: SELL 4x TIDE_SPOT @ 3200.00, realized P&L: +0.00, position: -9
+2026-02-28 21:22:21,353 - utils.metrics - INFO - Trade recorded: SELL 4x TIDE_SPOT @ 3200.00, P&L: +0.00, Total P&L: +0.00
+2026-02-28 21:22:21,357 - risk.pnl_monitor - INFO - Trade: SELL 2.0x WX_SPOT @ 4482.00, realized P&L: +0.00, position: -12
+2026-02-28 21:22:24,860 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:22:24,860 - risk.position_limits - INFO - POSITION SUMMARY
+2026-02-28 21:22:24,860 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - LHR_COUNT   :    +17  (limit:   -100 to   +100)
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - LHR_INDEX   :     +5  (limit:   -100 to   +100)
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - LON_ETF     :     -3  (limit:   -100 to   +100)
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - LON_FLY     :    -13  (limit:   -100 to   +100)
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - TIDE_SPOT   :     -9  (limit:   -100 to   +100)
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - TIDE_SWING  :     -1  (limit:   -100 to   +100)
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - WX_SPOT     :    -24  (limit:   -100 to   +100)
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - WX_SUM      :     +5  (limit:   -100 to   +100)
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - ------------------------------------------------------------
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - Total Exposure: 77 / 500
+2026-02-28 21:22:24,861 - risk.position_limits - INFO - ============================================================
+2026-02-28 21:22:24,865 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:22:24,865 - risk.pnl_monitor - INFO - P&L SUMMARY
+2026-02-28 21:22:24,865 - risk.pnl_monitor - INFO - ============================================================
+2026-02-28 21:22:24,865 - risk.pnl_monitor - INFO - Total Realized P&L: -40.00
+2026-02-28 21:23:01,235 - execution.order_manager - INFO - Shutting down order manager

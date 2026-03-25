@@ -1,0 +1,16 @@
+2026-03-01 01:50:15,415 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #1 !!! (Monthly limit: 150)
+2026-03-01 01:50:15,927 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 01:50:15,927 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 01:50:15,927 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 01:50:15,928 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 01:50:15,928 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 01:50:15,928 - data.flights - ERROR - Failed to estimate LHR_INDEX: Rate limit safety block active
+2026-03-01 01:50:15,928 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 01:50:15,928 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 01:50:15,928 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 01:50:15,928 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 01:50:22,482 - data.flights - ERROR - 🚫 FLIGHT API BLOCK: Attempted to call API too soon. Using stale data.
+2026-03-01 01:50:22,483 - data.flights - ERROR - Failed to fetch flight data: Rate limit safety block active
+2026-03-01 01:50:22,483 - data.flights - ERROR - Failed to estimate LHR_COUNT: Rate limit safety block active
+2026-03-01 01:50:22,483 - pricing.fair_value - WARNING - Missing component fair values for LON_ETF
+2026-03-01 01:50:22,483 - pricing.fair_value - WARNING - Missing ETF fair value for LON_FLY

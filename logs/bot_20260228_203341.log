@@ -1,0 +1,28 @@
+2026-02-28 20:33:41,549 - __main__ - INFO - ============================================================
+2026-02-28 20:33:41,549 - __main__ - INFO - IMCity Trading Bot
+2026-02-28 20:33:41,549 - __main__ - INFO - ============================================================
+2026-02-28 20:33:41,549 - __main__ - INFO - Bot:      hybrid
+2026-02-28 20:33:41,549 - __main__ - INFO - Exchange: challenge
+2026-02-28 20:33:41,549 - __main__ - INFO - URL:      http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/
+2026-02-28 20:33:41,549 - __main__ - INFO - User:     Brestttt
+2026-02-28 20:33:41,549 - __main__ - INFO - Width:    5.0
+2026-02-28 20:33:41,549 - __main__ - INFO - Volume:   5
+2026-02-28 20:33:41,549 - __main__ - INFO - ============================================================
+2026-02-28 20:33:41,550 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-02-28 20:33:41,550 - __main__ - ERROR - Bot crashed: name 'requests' is not defined
+Traceback (most recent call last):
+  File "/Users/victor/Desktop/ALGOTHON/IMC/CODES/bots/runner.py", line 46, in main
+    bot.run(sync_interval=60)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/victor/Desktop/ALGOTHON/IMC/CODES/bots/hybrid_bot.py", line 137, in run
+    self.start()  # Start SSE
+    ~~~~~~~~~~^^
+  File "/Users/victor/Desktop/ALGOTHON/IMC/CODES/bot_template.py", line 232, in start
+    bearer=self.auth_token,
+           ^^^^^^^^^^^^^^^
+  File "/Users/victor/miniforge3/envs/quant/lib/python3.13/functools.py", line 1026, in __get__
+    val = self.func(instance)
+  File "/Users/victor/Desktop/ALGOTHON/IMC/CODES/bot_template.py", line 218, in auth_token
+    response = requests.post(
+               ^^^^^^^^
+NameError: name 'requests' is not defined

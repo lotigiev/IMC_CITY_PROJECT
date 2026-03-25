@@ -1,0 +1,18 @@
+2026-03-01 00:54:19,315 - __main__ - INFO - ============================================================
+2026-03-01 00:54:19,316 - __main__ - INFO - IMCity Trading Bot
+2026-03-01 00:54:19,316 - __main__ - INFO - ============================================================
+2026-03-01 00:54:19,316 - __main__ - INFO - Bot:      hybrid
+2026-03-01 00:54:19,316 - __main__ - INFO - Exchange: test
+2026-03-01 00:54:19,316 - __main__ - INFO - URL:      http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/
+2026-03-01 00:54:19,316 - __main__ - INFO - User:     Brestttt
+2026-03-01 00:54:19,316 - __main__ - INFO - Width:    5.0
+2026-03-01 00:54:19,316 - __main__ - INFO - Volume:   5
+2026-03-01 00:54:19,316 - __main__ - INFO - ============================================================
+2026-03-01 00:54:19,316 - utils.alerting - WARNING - ⚠️ Alerting disabled (webhook URL is placeholder)
+2026-03-01 00:54:19,316 - utils.alerting - WARNING - ⚠️ Alerting disabled (no webhook URL configured)
+2026-03-01 00:54:19,316 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-03-01 00:54:19,394 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-03-01 00:54:19,395 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-03-01 00:54:19,395 - bots.hybrid_bot - INFO - Strategies: ['SettlementFlattener', 'MarketMaker', 'ETFArbitrageV2']
+2026-03-01 00:58:07,333 - bots.hybrid_bot - INFO - Stopping...
+2026-03-01 00:58:08,517 - bots.hybrid_bot - INFO - Bot shutdown complete

@@ -1,0 +1,27 @@
+2026-02-28 22:11:06,717 - __main__ - INFO - ============================================================
+2026-02-28 22:11:06,717 - __main__ - INFO - IMCity Trading Bot
+2026-02-28 22:11:06,717 - __main__ - INFO - ============================================================
+2026-02-28 22:11:06,717 - __main__ - INFO - Bot:      hybrid
+2026-02-28 22:11:06,717 - __main__ - INFO - Exchange: challenge
+2026-02-28 22:11:06,717 - __main__ - INFO - URL:      http://ec2-52-19-74-159.eu-west-1.compute.amazonaws.com/
+2026-02-28 22:11:06,717 - __main__ - INFO - User:     Brestttt
+2026-02-28 22:11:06,717 - __main__ - INFO - Width:    10.0
+2026-02-28 22:11:06,717 - __main__ - INFO - Volume:   2
+2026-02-28 22:11:06,717 - __main__ - INFO - ============================================================
+2026-02-28 22:11:06,717 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-02-28 22:11:06,718 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-02-28 22:11:06,718 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-02-28 22:11:06,718 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-02-28 22:11:06,718 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-02-28 22:11:06,718 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-02-28 22:11:06,718 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-02-28 22:11:06,718 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-02-28 22:11:06,718 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-02-28 22:11:06,718 - execution.order_manager - INFO - Order manager initialized: max_workers=10, rate_limit=1.0/s, risk_checks=True
+2026-02-28 22:11:06,718 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-02-28 22:11:06,770 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-02-28 22:11:06,771 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-02-28 22:11:06,771 - bots.hybrid_bot - INFO - Strategies: ['MarketMaker', 'ETFArbitrage']
+2026-02-28 22:11:29,875 - strategies.market_maker - INFO - 🎯 SNIPER BUY: Taking liquidity for LON_FLY @ 4186
+2026-02-28 22:11:46,769 - bots.hybrid_bot - INFO - Stopping...
+2026-02-28 22:11:51,891 - execution.order_manager - INFO - Shutting down order manager

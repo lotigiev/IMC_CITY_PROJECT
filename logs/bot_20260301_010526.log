@@ -1,0 +1,200 @@
+2026-03-01 01:05:26,911 - risk.position_limits - INFO - Position limit set for TIDE_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:05:26,912 - risk.position_limits - INFO - Position limit set for TIDE_SWING: long=100, short=-100, abs=100
+2026-03-01 01:05:26,912 - risk.position_limits - INFO - Position limit set for WX_SPOT: long=100, short=-100, abs=100
+2026-03-01 01:05:26,912 - risk.position_limits - INFO - Position limit set for WX_SUM: long=100, short=-100, abs=100
+2026-03-01 01:05:26,912 - risk.position_limits - INFO - Position limit set for LHR_COUNT: long=100, short=-100, abs=100
+2026-03-01 01:05:26,912 - risk.position_limits - INFO - Position limit set for LHR_INDEX: long=100, short=-100, abs=100
+2026-03-01 01:05:26,912 - risk.position_limits - INFO - Position limit set for LON_ETF: long=100, short=-100, abs=100
+2026-03-01 01:05:26,912 - risk.position_limits - INFO - Position limit set for LON_FLY: long=100, short=-100, abs=100
+2026-03-01 01:05:26,912 - risk.pnl_monitor - INFO - P&L monitor initialized with max loss: -10000
+2026-03-01 01:05:27,320 - data.flights - WARNING - !!! MAKING FLIGHT API REQUEST #1 !!! (Monthly limit: 150)
+2026-03-01 01:05:27,893 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:28,030 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:28,248 - risk.pnl_monitor - INFO - Trade: BUY 2x WX_SUM @ 3313.00, realized P&L: +0.00, position: +2
+2026-03-01 01:05:28,248 - __main__ - INFO - TRADE: BUY 2x WX_SUM @ 3313
+2026-03-01 01:05:28,250 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_ETF @ 10743.00, realized P&L: +0.00, position: +2
+2026-03-01 01:05:28,250 - __main__ - INFO - TRADE: BUY 2x LON_ETF @ 10743
+2026-03-01 01:05:28,457 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:28,616 - risk.pnl_monitor - INFO - Trade: BUY 1.0x LHR_COUNT @ 1707.00, realized P&L: +0.00, position: +1
+2026-03-01 01:05:28,617 - __main__ - INFO - TRADE: BUY 1.0x LHR_COUNT @ 1707
+2026-03-01 01:05:28,617 - risk.pnl_monitor - INFO - Trade: BUY 1.0x LHR_COUNT @ 1844.00, realized P&L: +0.00, position: +2
+2026-03-01 01:05:28,617 - __main__ - INFO - TRADE: BUY 1.0x LHR_COUNT @ 1844
+2026-03-01 01:05:29,858 - __main__ - INFO - Quoting TIDE_SPOT: 2 orders
+2026-03-01 01:05:32,657 - __main__ - INFO - Quoting LON_FLY: 2 orders
+2026-03-01 01:05:32,908 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:33,070 - __main__ - INFO - Quoting LHR_INDEX: 2 orders
+2026-03-01 01:05:33,219 - __main__ - INFO - Quoting TIDE_SWING: 2 orders
+2026-03-01 01:05:33,426 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:33,606 - __main__ - INFO - Quoting WX_SPOT: 2 orders
+2026-03-01 01:05:33,788 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:33,994 - risk.pnl_monitor - INFO - Trade: BUY 2x LON_FLY @ 3660.00, realized P&L: +0.00, position: +2
+2026-03-01 01:05:33,997 - __main__ - INFO - TRADE: BUY 2x LON_FLY @ 3660
+2026-03-01 01:05:33,997 - __main__ - INFO - Quoting LON_FLY: 2 orders
+2026-03-01 01:05:34,177 - risk.pnl_monitor - INFO - Trade: BUY 2x TIDE_SPOT @ 2777.00, realized P&L: +0.00, position: +2
+2026-03-01 01:05:34,177 - __main__ - INFO - TRADE: BUY 2x TIDE_SPOT @ 2777.0
+2026-03-01 01:05:34,177 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 2474.00, realized P&L: +0.00, position: +3
+2026-03-01 01:05:34,177 - __main__ - INFO - TRADE: BUY 1x LHR_COUNT @ 2474.0
+2026-03-01 01:05:34,178 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:34,343 - __main__ - INFO - Quoting TIDE_SPOT: 2 orders
+2026-03-01 01:05:34,564 - risk.pnl_monitor - INFO - Trade: BUY 2x LHR_INDEX @ 755.00, realized P&L: +0.00, position: +2
+2026-03-01 01:05:34,564 - __main__ - INFO - TRADE: BUY 2x LHR_INDEX @ 755.0
+2026-03-01 01:05:34,565 - __main__ - INFO - Quoting LHR_INDEX: 2 orders
+2026-03-01 01:05:34,691 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:35,097 - __main__ - INFO - Quoting WX_SPOT: 2 orders
+2026-03-01 01:05:35,197 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3283.00, realized P&L: +0.00, position: +3
+2026-03-01 01:05:35,200 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3283.0
+2026-03-01 01:05:35,202 - __main__ - INFO - Quoting LON_FLY: 2 orders
+2026-03-01 01:05:35,379 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:35,573 - risk.pnl_monitor - INFO - Trade: SELL 2x WX_SPOT @ 4414.00, realized P&L: +0.00, position: -2
+2026-03-01 01:05:35,575 - __main__ - INFO - TRADE: SELL 2x WX_SPOT @ 4414
+2026-03-01 01:05:35,577 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 3660.00, realized P&L: +0.00, position: +3
+2026-03-01 01:05:35,578 - __main__ - INFO - TRADE: BUY 1x LON_FLY @ 3660
+2026-03-01 01:05:35,579 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 1309.00, realized P&L: +0.00, position: +4
+2026-03-01 01:05:35,579 - __main__ - INFO - TRADE: BUY 1x LHR_COUNT @ 1309
+2026-03-01 01:05:35,582 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:35,736 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_INDEX @ 755.00, realized P&L: +0.00, position: +3
+2026-03-01 01:05:35,737 - __main__ - INFO - TRADE: BUY 1x LHR_INDEX @ 755.0
+2026-03-01 01:05:35,738 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3314.00, realized P&L: +0.00, position: +4
+2026-03-01 01:05:35,738 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3314
+2026-03-01 01:05:35,738 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:35,839 - risk.pnl_monitor - INFO - Trade: SELL 2x WX_SPOT @ 4414.00, realized P&L: +0.00, position: -4
+2026-03-01 01:05:35,839 - __main__ - INFO - TRADE: SELL 2x WX_SPOT @ 4414
+2026-03-01 01:05:35,839 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 3660.00, realized P&L: +0.00, position: +4
+2026-03-01 01:05:35,839 - __main__ - INFO - TRADE: BUY 1x LON_FLY @ 3660
+2026-03-01 01:05:35,842 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 1845.00, realized P&L: +0.00, position: +5
+2026-03-01 01:05:35,842 - __main__ - INFO - TRADE: BUY 1x LHR_COUNT @ 1845
+2026-03-01 01:05:35,845 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SPOT @ 2776.00, realized P&L: +0.00, position: +3
+2026-03-01 01:05:35,845 - __main__ - INFO - TRADE: BUY 1x TIDE_SPOT @ 2776.0
+2026-03-01 01:05:35,846 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3314.00, realized P&L: +0.00, position: +5
+2026-03-01 01:05:35,846 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3314
+2026-03-01 01:05:38,048 - risk.pnl_monitor - INFO - Trade: SELL 1.0x LON_ETF @ 9889.00, realized P&L: -854.00, position: +1
+2026-03-01 01:05:38,050 - __main__ - INFO - TRADE: SELL 1.0x LON_ETF @ 9889.0
+2026-03-01 01:05:38,868 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:39,267 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:39,418 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3314.00, realized P&L: +0.00, position: +6
+2026-03-01 01:05:39,418 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3314
+2026-03-01 01:05:40,470 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:40,583 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 2474.00, realized P&L: +0.00, position: +6
+2026-03-01 01:05:40,584 - __main__ - INFO - TRADE: BUY 1x LHR_COUNT @ 2474.0
+2026-03-01 01:05:41,876 - __main__ - INFO - Quoting TIDE_SWING: 2 orders
+2026-03-01 01:05:42,190 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:43,471 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:44,073 - __main__ - INFO - Quoting LON_FLY: 2 orders
+2026-03-01 01:05:44,206 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:44,340 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:44,573 - __main__ - INFO - Quoting WX_SPOT: 2 orders
+2026-03-01 01:05:44,739 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 3660.00, realized P&L: +0.00, position: +5
+2026-03-01 01:05:44,740 - __main__ - INFO - TRADE: BUY 1x LON_FLY @ 3660
+2026-03-01 01:05:44,742 - risk.pnl_monitor - INFO - Trade: SELL 1x WX_SPOT @ 4414.00, realized P&L: +0.00, position: -5
+2026-03-01 01:05:44,742 - __main__ - INFO - TRADE: SELL 1x WX_SPOT @ 4414
+2026-03-01 01:05:45,483 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:45,590 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3315.00, realized P&L: +0.00, position: +7
+2026-03-01 01:05:45,591 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3315
+2026-03-01 01:05:46,530 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:46,942 - risk.pnl_monitor - INFO - Trade: SELL 2x TIDE_SPOT @ 2797.00, realized P&L: +40.67, position: +1
+2026-03-01 01:05:46,943 - __main__ - INFO - TRADE: SELL 2x TIDE_SPOT @ 2797.0
+2026-03-01 01:05:46,943 - risk.pnl_monitor - INFO - Trade: SELL 2x TIDE_SPOT @ 2797.00, realized P&L: +20.33, position: -1
+2026-03-01 01:05:46,943 - __main__ - INFO - TRADE: SELL 2x TIDE_SPOT @ 2797.0
+2026-03-01 01:05:47,076 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:47,178 - __main__ - INFO - Quoting TIDE_SPOT: 2 orders
+2026-03-01 01:05:47,315 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3315.00, realized P&L: +0.00, position: +8
+2026-03-01 01:05:47,315 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3315
+2026-03-01 01:05:47,316 - __main__ - INFO - Quoting WX_SPOT: 2 orders
+2026-03-01 01:05:47,454 - risk.pnl_monitor - INFO - Trade: SELL 1x TIDE_SPOT @ 3080.00, realized P&L: +0.00, position: -2
+2026-03-01 01:05:47,454 - __main__ - INFO - TRADE: SELL 1x TIDE_SPOT @ 3080
+2026-03-01 01:05:47,455 - risk.pnl_monitor - INFO - Trade: SELL 1x WX_SPOT @ 4415.00, realized P&L: +0.00, position: -6
+2026-03-01 01:05:47,456 - __main__ - INFO - TRADE: SELL 1x WX_SPOT @ 4415
+2026-03-01 01:05:47,690 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:47,902 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:48,160 - __main__ - INFO - Quoting LON_FLY: 2 orders
+2026-03-01 01:05:48,440 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 3938.00, realized P&L: +0.00, position: +6
+2026-03-01 01:05:48,441 - __main__ - INFO - TRADE: BUY 1x LON_FLY @ 3938
+2026-03-01 01:05:48,692 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:48,792 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3315.00, realized P&L: +0.00, position: +9
+2026-03-01 01:05:48,792 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3315
+2026-03-01 01:05:49,278 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:49,679 - __main__ - INFO - Quoting TIDE_SWING: 2 orders
+2026-03-01 01:05:49,793 - __main__ - INFO - Quoting TIDE_SPOT: 2 orders
+2026-03-01 01:05:49,892 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 3006.00, realized P&L: +0.00, position: +7
+2026-03-01 01:05:49,893 - __main__ - INFO - TRADE: BUY 1x LHR_COUNT @ 3006.0
+2026-03-01 01:05:50,279 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:50,377 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 3006.00, realized P&L: +0.00, position: +8
+2026-03-01 01:05:50,377 - __main__ - INFO - TRADE: BUY 1x LHR_COUNT @ 3006.0
+2026-03-01 01:05:50,880 - __main__ - INFO - Quoting TIDE_SWING: 2 orders
+2026-03-01 01:05:51,112 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:51,480 - __main__ - INFO - Quoting TIDE_SPOT: 2 orders
+2026-03-01 01:05:51,636 - risk.pnl_monitor - INFO - Trade: SELL 1x TIDE_SPOT @ 3049.00, realized P&L: +0.00, position: -3
+2026-03-01 01:05:51,636 - __main__ - INFO - TRADE: SELL 1x TIDE_SPOT @ 3049
+2026-03-01 01:05:51,882 - __main__ - INFO - Quoting WX_SPOT: 2 orders
+2026-03-01 01:05:52,042 - risk.pnl_monitor - INFO - Trade: SELL 1x WX_SPOT @ 4415.00, realized P&L: +0.00, position: -7
+2026-03-01 01:05:52,043 - __main__ - INFO - TRADE: SELL 1x WX_SPOT @ 4415
+2026-03-01 01:05:52,083 - __main__ - INFO - Quoting TIDE_SWING: 2 orders
+2026-03-01 01:05:52,300 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:05:52,468 - __main__ - INFO - Quoting LON_FLY: 2 orders
+2026-03-01 01:05:52,568 - __main__ - INFO - Quoting TIDE_SPOT: 2 orders
+2026-03-01 01:05:52,668 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 3006.00, realized P&L: +0.00, position: +9
+2026-03-01 01:05:52,668 - __main__ - INFO - TRADE: BUY 1x LHR_COUNT @ 3006.0
+2026-03-01 01:05:52,669 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 3939.00, realized P&L: +0.00, position: +7
+2026-03-01 01:05:52,670 - __main__ - INFO - TRADE: BUY 1x LON_FLY @ 3939
+2026-03-01 01:05:54,919 - risk.pnl_monitor - INFO - Trade: BUY 2x TIDE_SPOT @ 2928.00, realized P&L: +94.67, position: -1
+2026-03-01 01:05:54,920 - __main__ - INFO - TRADE: BUY 2x TIDE_SPOT @ 2928.0
+2026-03-01 01:05:55,286 - __main__ - INFO - Quoting LON_FLY: 2 orders
+2026-03-01 01:05:55,501 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:55,645 - __main__ - INFO - Quoting WX_SPOT: 2 orders
+2026-03-01 01:05:55,743 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:55,970 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 3939.00, realized P&L: +0.00, position: +8
+2026-03-01 01:05:55,971 - __main__ - INFO - TRADE: BUY 1x LON_FLY @ 3939
+2026-03-01 01:05:55,973 - risk.pnl_monitor - INFO - Trade: SELL 1x WX_SPOT @ 4415.00, realized P&L: +0.00, position: -8
+2026-03-01 01:05:55,973 - __main__ - INFO - TRADE: SELL 1x WX_SPOT @ 4415
+2026-03-01 01:05:56,494 - __main__ - INFO - Quoting LON_FLY: 2 orders
+2026-03-01 01:05:56,650 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_FLY @ 3939.00, realized P&L: +0.00, position: +9
+2026-03-01 01:05:56,650 - __main__ - INFO - TRADE: BUY 1x LON_FLY @ 3939
+2026-03-01 01:05:56,889 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:05:57,329 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:57,594 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3316.00, realized P&L: +0.00, position: +10
+2026-03-01 01:05:57,595 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3316
+2026-03-01 01:05:57,597 - risk.pnl_monitor - INFO - Trade: BUY 2x TIDE_SPOT @ 2797.00, realized P&L: +178.33, position: +1
+2026-03-01 01:05:57,597 - __main__ - INFO - TRADE: BUY 2x TIDE_SPOT @ 2797.0
+2026-03-01 01:05:57,597 - risk.pnl_monitor - INFO - Trade: BUY 2x TIDE_SPOT @ 2797.00, realized P&L: +0.00, position: +3
+2026-03-01 01:05:57,597 - __main__ - INFO - TRADE: BUY 2x TIDE_SPOT @ 2797.0
+2026-03-01 01:05:57,693 - __main__ - INFO - Quoting TIDE_SPOT: 2 orders
+2026-03-01 01:05:58,892 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:05:59,137 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3316.00, realized P&L: +0.00, position: +11
+2026-03-01 01:05:59,138 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3316
+2026-03-01 01:06:00,219 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SPOT @ 2796.00, realized P&L: +0.00, position: +4
+2026-03-01 01:06:00,220 - __main__ - INFO - TRADE: BUY 1x TIDE_SPOT @ 2796.0
+2026-03-01 01:06:00,493 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:06:02,494 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:06:02,688 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 2941.00, realized P&L: +0.00, position: +10
+2026-03-01 01:06:02,689 - __main__ - INFO - TRADE: BUY 1x LHR_COUNT @ 2941
+2026-03-01 01:06:03,206 - risk.pnl_monitor - INFO - Trade: SELL 2x TIDE_SPOT @ 2817.00, realized P&L: +40.50, position: +2
+2026-03-01 01:06:03,206 - __main__ - INFO - TRADE: SELL 2x TIDE_SPOT @ 2817.0
+2026-03-01 01:06:03,307 - __main__ - INFO - Quoting TIDE_SPOT: 2 orders
+2026-03-01 01:06:03,458 - risk.pnl_monitor - INFO - Trade: SELL 1x TIDE_SPOT @ 3070.00, realized P&L: +273.25, position: +1
+2026-03-01 01:06:03,458 - __main__ - INFO - TRADE: SELL 1x TIDE_SPOT @ 3070
+2026-03-01 01:06:03,701 - __main__ - INFO - Quoting WX_SPOT: 2 orders
+2026-03-01 01:06:04,097 - risk.pnl_monitor - INFO - Trade: SELL 1x WX_SPOT @ 4415.00, realized P&L: +0.00, position: -9
+2026-03-01 01:06:04,098 - __main__ - INFO - TRADE: SELL 1x WX_SPOT @ 4415
+2026-03-01 01:06:04,359 - __main__ - INFO - Quoting LHR_COUNT: 2 orders
+2026-03-01 01:06:04,476 - __main__ - INFO - Quoting WX_SUM: 2 orders
+2026-03-01 01:06:04,702 - __main__ - INFO - Quoting WX_SPOT: 2 orders
+2026-03-01 01:06:05,111 - risk.pnl_monitor - INFO - Trade: BUY 1x LHR_COUNT @ 2087.00, realized P&L: +0.00, position: +11
+2026-03-01 01:06:05,114 - __main__ - INFO - TRADE: BUY 1x LHR_COUNT @ 2087.0
+2026-03-01 01:06:05,115 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 10940.00, realized P&L: +0.00, position: +2
+2026-03-01 01:06:05,115 - __main__ - INFO - TRADE: BUY 1x LON_ETF @ 10940.0
+2026-03-01 01:06:05,116 - __main__ - INFO - Quoting LON_ETF: 2 orders
+2026-03-01 01:06:05,210 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 10628.00, realized P&L: +0.00, position: +3
+2026-03-01 01:06:05,211 - __main__ - INFO - TRADE: BUY 1x LON_ETF @ 10628.0
+2026-03-01 01:06:05,211 - risk.pnl_monitor - INFO - Trade: BUY 1x WX_SUM @ 3316.00, realized P&L: +0.00, position: +12
+2026-03-01 01:06:05,211 - __main__ - INFO - TRADE: BUY 1x WX_SUM @ 3316
+2026-03-01 01:06:05,212 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 9868.00, realized P&L: +0.00, position: +4
+2026-03-01 01:06:05,212 - __main__ - INFO - TRADE: BUY 1x LON_ETF @ 9868.0
+2026-03-01 01:06:05,212 - risk.pnl_monitor - INFO - Trade: SELL 1x WX_SPOT @ 4415.00, realized P&L: +0.00, position: -10
+2026-03-01 01:06:05,213 - risk.pnl_monitor - CRITICAL - 🚨 STOP-LOSS TRIGGERED! 🚨 Total P&L: -15572.00 <= -10000.00 (Realized: -206.25, Unrealized: -15365.75)
+2026-03-01 01:06:05,213 - __main__ - INFO - TRADE: SELL 1x WX_SPOT @ 4415
+2026-03-01 01:06:05,213 - risk.pnl_monitor - INFO - Trade: BUY 1x LON_ETF @ 8883.00, realized P&L: +0.00, position: +5
+2026-03-01 01:06:05,213 - __main__ - INFO - TRADE: BUY 1x LON_ETF @ 8883
+2026-03-01 01:06:06,003 - risk.pnl_monitor - INFO - Trade: BUY 1x TIDE_SPOT @ 2933.00, realized P&L: +0.00, position: +2
+2026-03-01 01:06:06,004 - __main__ - INFO - TRADE: BUY 1x TIDE_SPOT @ 2933.0
+2026-03-01 01:06:06,231 - risk.pnl_monitor - INFO - Trade: SELL 2.0x TIDE_SWING @ 520.00, realized P&L: +0.00, position: -2
+2026-03-01 01:06:06,231 - __main__ - INFO - TRADE: SELL 2.0x TIDE_SWING @ 520.0

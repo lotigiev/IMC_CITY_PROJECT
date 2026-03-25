@@ -1,0 +1,21 @@
+2026-03-01 00:41:29,387 - __main__ - INFO - ============================================================
+2026-03-01 00:41:29,387 - __main__ - INFO - IMCity Trading Bot
+2026-03-01 00:41:29,387 - __main__ - INFO - ============================================================
+2026-03-01 00:41:29,387 - __main__ - INFO - Bot:      hybrid
+2026-03-01 00:41:29,387 - __main__ - INFO - Exchange: test
+2026-03-01 00:41:29,387 - __main__ - INFO - URL:      http://ec2-52-49-69-152.eu-west-1.compute.amazonaws.com/
+2026-03-01 00:41:29,387 - __main__ - INFO - User:     Brestttt
+2026-03-01 00:41:29,388 - __main__ - INFO - Width:    5.0
+2026-03-01 00:41:29,388 - __main__ - INFO - Volume:   5
+2026-03-01 00:41:29,388 - __main__ - WARNING - DRY RUN MODE (no orders will be sent)
+2026-03-01 00:41:29,388 - __main__ - INFO - ============================================================
+2026-03-01 00:41:29,388 - bots.hybrid_bot - WARNING - 🔴 DRY RUN MODE ENABLED - No real orders will be sent! 🔴
+2026-03-01 00:41:29,388 - utils.alerting - INFO - ✅ Alerting enabled (webhook configured)
+2026-03-01 00:41:29,388 - bots.hybrid_bot - INFO - Starting SSE stream...
+2026-03-01 00:41:29,500 - bots.hybrid_bot - INFO - ✓ SSE thread started
+2026-03-01 00:41:29,501 - bots.hybrid_bot - INFO - Hybrid bot started
+2026-03-01 00:41:29,501 - bots.hybrid_bot - INFO - Strategies: ['SettlementFlattener', 'MarketMaker', 'ETFArbitrageV2']
+2026-03-01 00:41:29,727 - utils.alerting - ERROR - Failed to send alert: 405 Client Error: Method Not Allowed for url: https://discord.com/api/webhooks/YOUR_WEBHOOK
+2026-03-01 00:43:11,210 - bots.hybrid_bot - INFO - Stopping...
+2026-03-01 00:43:11,670 - utils.alerting - ERROR - Failed to send alert: 405 Client Error: Method Not Allowed for url: https://discord.com/api/webhooks/YOUR_WEBHOOK
+2026-03-01 00:43:11,758 - bots.hybrid_bot - INFO - Bot shutdown complete
